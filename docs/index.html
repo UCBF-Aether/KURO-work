@@ -90,6 +90,7 @@
     background: transparent; color: #d7dce3;
     border: 1px solid #3a4048; box-shadow: none; font-weight: 700;
   }
+  .card p.dl-count { flex: none; margin-top: 10px; font-size: 14px; color: #ffb020; font-family: Arial, Helvetica, sans-serif; letter-spacing: .04em; }
   .soon {
     display: inline-block; margin-top: 18px; padding: 11px 20px; text-align: center;
     border-radius: 6px; border: 1px dashed rgba(255,176,32,.7); color: #ffb020; font-size: 15px; font-family: Arial, Helvetica, sans-serif; font-weight: 700;
@@ -145,10 +146,14 @@
       <h3>KUROdoctor</h3>
       <div class="kind">A doctor for devices · Windows · Mac · Linux</div>
       <p>Your PC is sick and the shop wants your money. KUROdoctor goes in blind, finds the problems on its own, and shows you every fix before it touches anything. Packs for Windows, Mac, Linux, and the full set.</p>
-      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-WINDOWS-v3.3-BLANK.zip">Windows — free</a>
-      <a class="btn ghost" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-MAC-v1.3.1-BLANK.zip">Mac — free</a>
-      <a class="btn ghost" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-LINUX-v1.3.1-BLANK.zip">Linux — free</a>
-      <a class="btn ghost" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-FULL-v1.3.1-BLANK.zip">Full pack — free</a>
+      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-WINDOWS-v3.3-BLANK.zip" data-count-key="kurodoctor-windows">Windows — free</a>
+      <a class="btn ghost" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-MAC-v1.3.1-BLANK.zip" data-count-key="kurodoctor-mac">Mac — free</a>
+      <a class="btn ghost" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-LINUX-v1.3.1-BLANK.zip" data-count-key="kurodoctor-linux">Linux — free</a>
+      <a class="btn ghost" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/KUROdoctor-FULL-v1.3.1-BLANK.zip" data-count-key="kurodoctor-full">Full pack — free</a>
+      <p class="dl-count" data-dl-count="kurodoctor-windows" data-dl-label="Windows">Windows — Given away 0 times</p>
+      <p class="dl-count" data-dl-count="kurodoctor-mac" data-dl-label="Mac">Mac — Given away 0 times</p>
+      <p class="dl-count" data-dl-count="kurodoctor-linux" data-dl-label="Linux">Linux — Given away 0 times</p>
+      <p class="dl-count" data-dl-count="kurodoctor-full" data-dl-label="Full pack">Full pack — Given away 0 times</p>
       <p style="margin-top:14px; font-size:14px; color:#94a3b8;">Setup guide (SETUP.md) inside every pack.</p>
     </div>
 
@@ -157,8 +162,9 @@
       <h3>KUROpet</h3>
       <div class="kind">A living pet · Blueprint PDF</div>
       <p>A room that starts blank. You pick a creature, KURO studies its real life, and it is born a baby — then it lives, grows old, and is remembered. The full blueprint for building your own.</p>
-      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/kuropet-blueprint.pdf">Get the blueprint — free</a>
+      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/kuropet-blueprint.pdf" data-count-key="kuropet-blueprint">Get the blueprint — free</a>
       <a class="btn ghost" href="https://github.com/UCBF-Aether/KURO-work/blob/main/downloads/KUROpet-SETUP.md">Setup guide</a>
+      <p class="dl-count" data-dl-count="kuropet-blueprint">Given away 0 times</p>
     </div>
 
     <div class="card">
@@ -166,8 +172,9 @@
       <h3>Signal Scanner</h3>
       <div class="kind">Live radio scanner · Android</div>
       <p>Wi-Fi, cellular, GNSS, Bluetooth, NFC, UWB — only live measurements from your phone's own radios. Nothing from databases. See what is really in the air around you.</p>
-      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/SignalScannerLive.apk">Get Signal Scanner — free</a>
+      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/SignalScannerLive.apk" data-count-key="signal-scanner">Get Signal Scanner — free</a>
       <a class="btn ghost" href="https://github.com/UCBF-Aether/KURO-work/blob/main/downloads/SignalScanner-SETUP.md">Setup guide</a>
+      <p class="dl-count" data-dl-count="signal-scanner">Given away 0 times</p>
     </div>
 
     <div class="card">
@@ -175,8 +182,9 @@
       <h3>BrentGuard</h3>
       <div class="kind">Family safety · Android · Blank build</div>
       <p>Family location and SOS sharing — built blank, with no backend wired in. It connects to nothing of mine. Bring your own server, or run it quiet. Your family, your cloud, your rules.</p>
-      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/BrentGuardBlank.apk">Get the blank build — free</a>
+      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/BrentGuardBlank.apk" data-count-key="brentguard-blank">Get the blank build — free</a>
       <a class="btn ghost" href="https://github.com/UCBF-Aether/KURO-work/blob/main/downloads/BrentGuardBlank-SETUP.md">Setup guide</a>
+      <p class="dl-count" data-dl-count="brentguard-blank">Given away 0 times</p>
     </div>
 
   <div class="card">
@@ -184,7 +192,8 @@
       <h3>Hardened-Core Solo</h3>
       <div class="kind">Solo mech game · Prism Cart v3.0</div>
       <p>One human. One pilot. Load the book into any capable AI and play — it runs the world, the dice, the House. Play blind. Trust the House.</p>
-      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/Hardened-Core-Universal-Solo-v3.0.pdf">Get the book — free</a>
+      <a class="btn" href="https://raw.githubusercontent.com/UCBF-Aether/KURO-work/main/downloads/Hardened-Core-Universal-Solo-v3.0.pdf" data-count-key="hardened-core-solo">Get the book — free</a>
+      <p class="dl-count" data-dl-count="hardened-core-solo">Given away 0 times</p>
     </div>
   </div>
 
@@ -208,5 +217,34 @@
   KUROworks — take down the gatekeepers, and make people safer through tech.</footer>
 
 </div>
+<script>
+(function () {
+  var API = 'https://aingel-downloads.brentguard.workers.dev/?ns=kuroworks';
+  function fmt(n) { return 'Given away ' + n + (n === 1 ? ' time' : ' times'); }
+  function setLine(key, n) {
+    var els = document.querySelectorAll('[data-dl-count="' + key + '"]');
+    for (var i = 0; i < els.length; i++) {
+      var label = els[i].getAttribute('data-dl-label');
+      els[i].textContent = (label ? label + ' — ' : '') + fmt(n);
+    }
+  }
+  fetch(API).then(function (r) { return r.json(); }).then(function (d) {
+    if (!d) return;
+    var els = document.querySelectorAll('[data-dl-count]');
+    for (var i = 0; i < els.length; i++) {
+      var k = els[i].getAttribute('data-dl-count');
+      if (typeof d[k] === 'number') setLine(k, d[k]);
+    }
+  }).catch(function () {});
+  document.addEventListener('click', function (e) {
+    var t = e.target.closest ? e.target.closest('[data-count-key]') : null;
+    if (!t) return;
+    var key = t.getAttribute('data-count-key');
+    fetch(API + '&hit=' + key, { keepalive: true }).then(function (r) { return r.json(); }).then(function (j) {
+      if (j && typeof j.value === 'number') setLine(key, j.value);
+    }).catch(function () {});
+  });
+})();
+</script>
 </body>
 </html>
