@@ -1,0 +1,141 @@
+{
+ "direction": "motor-backward",
+ "note": "Traced UPSTREAM from proboscis motor neurons via real UpstreamClassConnectivity rows. Hop 0 = proboscis MN (motor end); hop -1/-2 = progressively further upstream. The sweet-GRN -> SEZ sensory link is NOT in this chain (see GAPS.md \u00a71); this chain covers the motor half of the sugar pathway.",
+ "nodes": [
+  {
+   "id": "FBbt_00051181",
+   "name": "proboscis motor neuron mn1",
+   "type": "proboscis motor neuron mn1",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": -1
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "type": "subesophageal zone neuron",
+   "hop": -1
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "type": "gnathal ganglion neuron",
+   "hop": -1
+  },
+  {
+   "id": "FBbt_00047516",
+   "name": "descending neuron of the gnathal ganglion",
+   "type": "descending neuron of the gnathal ganglion",
+   "hop": -1
+  },
+  {
+   "id": "FBbt_20004556",
+   "name": "adult CB0859 neuron",
+   "type": "adult CB0859 neuron",
+   "hop": -1
+  },
+  {
+   "id": "FBbt_00048301",
+   "name": "adult ascending neuron",
+   "type": "adult ascending neuron",
+   "hop": -2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00051181",
+   "weight": 377.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00051181",
+   "weight": 370.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00051181",
+   "weight": 310.0
+  },
+  {
+   "pre": "FBbt_00047516",
+   "post": "FBbt_00051181",
+   "weight": 266.0
+  },
+  {
+   "pre": "FBbt_20004556",
+   "post": "FBbt_00051181",
+   "weight": 227.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00001972",
+   "weight": 372297.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00001972",
+   "weight": 369199.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00001972",
+   "weight": 300027.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00052032",
+   "weight": 359664.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00052032",
+   "weight": 344222.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00052032",
+   "weight": 287033.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00047516",
+   "weight": 291186.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00047516",
+   "weight": 271738.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00047516",
+   "weight": 267202.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_20004556",
+   "weight": 576.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_20004556",
+   "weight": 513.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_20004556",
+   "weight": 494.0
+  }
+ ],
+ "stimulus": "sugar (motor-backward)",
+ "behavior": {
+  "text": "Proboscis extension: SEZ premotor drive converges on proboscis motor neurons, extending the proboscis.",
+  "basis": "real traced chain: SEZ/gnathal/descending neurons -> proboscis MN mn1 (VFB UpstreamClassConnectivity); the sweet-GRN -> SEZ sensory link is not indexed (see GAPS.md)"
+ },
+ "fly_narration": "Sweet command received \u2014 reach out."
+}

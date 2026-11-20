@@ -1,0 +1,183 @@
+{
+ "stimulus": "egglaying",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00049919",
+   "name": "oviposition descending neuron oviDN",
+   "type": "oviposition descending neuron oviDN",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001987",
+   "name": "abdominal neuron",
+   "type": "abdominal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049858",
+   "name": "adult subesophageal zone output neuron",
+   "type": "adult subesophageal zone output neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00048301",
+   "name": "adult ascending neuron",
+   "type": "adult ascending neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_20010849",
+   "name": "adult INXXX052 neuron",
+   "type": "adult INXXX052 neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001985",
+   "name": "mesothoracic neuron",
+   "type": "mesothoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00051963",
+   "name": "efferent neuron",
+   "type": "efferent neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00049919",
+   "post": "FBbt_00059289",
+   "weight": 1132
+  },
+  {
+   "pre": "FBbt_00049919",
+   "post": "FBbt_00001987",
+   "weight": 1042
+  },
+  {
+   "pre": "FBbt_00049919",
+   "post": "FBbt_00047096",
+   "weight": 360
+  },
+  {
+   "pre": "FBbt_00049919",
+   "post": "FBbt_00049858",
+   "weight": 350
+  },
+  {
+   "pre": "FBbt_00049919",
+   "post": "FBbt_00048301",
+   "weight": 235
+  },
+  {
+   "pre": "FBbt_00049919",
+   "post": "FBbt_20010849",
+   "weight": 209
+  },
+  {
+   "pre": "FBbt_00059289",
+   "post": "FBbt_00001983",
+   "weight": 19030489.0
+  },
+  {
+   "pre": "FBbt_00059289",
+   "post": "FBbt_00047096",
+   "weight": 13835516.0
+  },
+  {
+   "pre": "FBbt_00059289",
+   "post": "FBbt_00001985",
+   "weight": 8001218.0
+  },
+  {
+   "pre": "FBbt_00001987",
+   "post": "FBbt_00059289",
+   "weight": 3715655.0
+  },
+  {
+   "pre": "FBbt_00001987",
+   "post": "FBbt_00001983",
+   "weight": 1529276.0
+  },
+  {
+   "pre": "FBbt_00001987",
+   "post": "FBbt_00047096",
+   "weight": 1338469.0
+  },
+  {
+   "pre": "FBbt_00049858",
+   "post": "FBbt_00047096",
+   "weight": 242710.0
+  },
+  {
+   "pre": "FBbt_00049858",
+   "post": "FBbt_00048293",
+   "weight": 87144.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00059289",
+   "weight": 3561911.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00001983",
+   "weight": 3122257.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00047096",
+   "weight": 2472391.0
+  },
+  {
+   "pre": "FBbt_20010849",
+   "post": "FBbt_00059289",
+   "weight": 22079.0
+  },
+  {
+   "pre": "FBbt_20010849",
+   "post": "FBbt_00001987",
+   "weight": 21896.0
+  },
+  {
+   "pre": "FBbt_20010849",
+   "post": "FBbt_00051963",
+   "weight": 9287.0
+  }
+ ],
+ "behavior": {
+  "text": "Egg laying: oviposition descending neurons (oviDNs) command the abdominal motor circuits that drive ovipositor movements and egg deposition.",
+  "basis": "textbook Drosophila oviposition circuit (oviDNs -> abdominal/VNC motor); stated as known biology"
+ },
+ "fly_narration": "Time.",
+ "hop0_ids": [
+  "FBbt_00049919"
+ ],
+ "honest_note": "EGG-LAYING DRIVE wiring: oviDN (FBbt_00049919, the 12-instance aggregate class of oviDNa/b/d/v/x) -> VNC/abdominal motor populations + ascending leg-to-brain-style feedback + SEZ output. The motor end (efferent/motor neurons at hop 2) is the ovipositor/abdominal muscle command chain. Query notes: ID-form grouped query truncates server-side (IncompleteRead); label form returned 421 real rows. Subtype queries are weak: oviDNa label form dies server-side, oviDNb returns 29 weak rows (CB0584 tw=54, foxglove/SEZ/gnathal tw=24) \u2014 the aggregate class carries the real signal, per the most-informative-class convention. Skips (documented, not hidden): ontology/transmitter/Notch-hemilineage developmental buckets (GENERIC + SKIP_IDS in build_egglaying.py); optic-lobe-restricted classes (visual neuropil intrinsic FBbt_00059247 \u2014 term description states synapses restricted to optic lobes/ocellar ganglia \u2014 plus wide-field/narrow-field columnar, medulla intrinsic/columnar, transmedullary) appearing as downstream of SEZ-output/brain classes: class-aggregation artifacts, same family as the proprioception-build incident. INXXX052/INXXX257 are uncharacterized classes (real rows). secondary neuron (FBbt_00047096) is an honest hop-1 terminal (0 rows all forms). CIRCUIT VS DRIVE: every edge is REAL measured wiring of oviDN downstream. The DRIVE DYNAMICS (egg-load-dependent ramping, temporal patterning of deposition) are the genuinely unmapped frontier; no API holds them and this graph models none of them."
+}

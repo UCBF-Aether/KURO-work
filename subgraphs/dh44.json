@@ -1,0 +1,230 @@
+{
+ "stimulus": "dh44",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity (IPC via named DownstreamClassConnectivity fallback); edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00047132",
+   "name": "DH44 neuron of pars intercerebralis",
+   "type": "DH44 neuron of pars intercerebralis",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00059246",
+   "name": "adult ring gland projection neuron",
+   "type": "adult ring gland projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052149",
+   "name": "gut-innervating neuron",
+   "type": "gut-innervating neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "type": "subesophageal zone neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "type": "gnathal ganglion neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00058024",
+   "name": "adult Ms cell of pars intercerebralis",
+   "type": "adult Ms cell of pars intercerebralis",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00005133",
+   "name": "serotonergic neuron",
+   "type": "serotonergic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051963",
+   "name": "efferent neuron",
+   "type": "efferent neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00051964",
+   "name": "adult efferent neuron",
+   "type": "adult efferent neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00005130",
+   "name": "neurosecretory neuron",
+   "type": "neurosecretory neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00004101",
+   "name": "peptidergic neuron",
+   "type": "peptidergic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047185",
+   "name": "neurosecretory cell of pars intercerebralis",
+   "type": "neurosecretory cell of pars intercerebralis",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059245",
+   "name": "adult central brain intrinsic neuron",
+   "type": "adult central brain intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00100660",
+   "name": "BAlc lineage neuron",
+   "type": "BAlc lineage neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00047132",
+   "post": "FBbt_00059246",
+   "weight": 252
+  },
+  {
+   "pre": "FBbt_00047132",
+   "post": "FBbt_00052149",
+   "weight": 235
+  },
+  {
+   "pre": "FBbt_00047132",
+   "post": "FBbt_00001972",
+   "weight": 72
+  },
+  {
+   "pre": "FBbt_00047132",
+   "post": "FBbt_00052032",
+   "weight": 58
+  },
+  {
+   "pre": "FBbt_00047132",
+   "post": "FBbt_00058024",
+   "weight": 17
+  },
+  {
+   "pre": "FBbt_00047132",
+   "post": "FBbt_00005133",
+   "weight": 13
+  },
+  {
+   "pre": "FBbt_00059246",
+   "post": "FBbt_00051963",
+   "weight": 703
+  },
+  {
+   "pre": "FBbt_00059246",
+   "post": "FBbt_00051964",
+   "weight": 703
+  },
+  {
+   "pre": "FBbt_00059246",
+   "post": "FBbt_00005130",
+   "weight": 687
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00059289",
+   "weight": 960507.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00001983",
+   "weight": 846534.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00047096",
+   "weight": 668777.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00059289",
+   "weight": 959022.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00001983",
+   "weight": 845190.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00047096",
+   "weight": 632276.0
+  },
+  {
+   "pre": "FBbt_00058024",
+   "post": "FBbt_00004101",
+   "weight": 69
+  },
+  {
+   "pre": "FBbt_00058024",
+   "post": "FBbt_00005130",
+   "weight": 69
+  },
+  {
+   "pre": "FBbt_00058024",
+   "post": "FBbt_00047185",
+   "weight": 69
+  },
+  {
+   "pre": "FBbt_00005133",
+   "post": "FBbt_00059245",
+   "weight": 339002.0
+  },
+  {
+   "pre": "FBbt_00005133",
+   "post": "FBbt_00049540",
+   "weight": 321477.0
+  },
+  {
+   "pre": "FBbt_00005133",
+   "post": "FBbt_00100660",
+   "weight": 297158.0
+  }
+ ],
+ "behavior": {
+  "text": "Hunger drive: DH44 neurosecretory cells of the pars intercerebralis signal nutrient need \u2014 hormonal output via the ring gland, gut motility modulation, and direct drive onto the SEZ feeding center shared with the taste circuits.",
+  "basis": "DH44 as hunger-promoting PI neurosecretory cells is textbook Drosophila physiology; edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "Empty \u2014 seek.",
+ "honest_note": "Hop-1: the tw=252 tier is an ontology-duplicated synapse set (11 ancestor labels, one underlying connectivity); represented by its most specific member (ring gland projection). DH44->SEZ (FBbt_00001972) is the SAME node class anchoring the sweet/water/bitter taste circuits \u2014 drive and taste converge on shared wiring.",
+ "hop0_ids": [
+  "FBbt_00047132"
+ ]
+}

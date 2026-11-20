@@ -1,0 +1,179 @@
+{
+ "stimulus": "clock",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00004046",
+   "name": "LNv neuron",
+   "type": "LNv neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00100163",
+   "name": "adult pacemaker neuron",
+   "type": "adult pacemaker neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050230",
+   "name": "adult SLPpl1 lineage neuron",
+   "type": "adult SLPpl1 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059247",
+   "name": "adult visual neuropil intrinsic neuron",
+   "type": "adult visual neuropil intrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00053404",
+   "name": "accessory medulla neuron",
+   "type": "accessory medulla neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00003628",
+   "name": "adult DN period neuron",
+   "type": "adult DN period neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050117",
+   "name": "adult LHd2 lineage neuron",
+   "type": "adult LHd2 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00006048",
+   "name": "pacemaker neuron",
+   "type": "pacemaker neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007368",
+   "name": "aminergic neuron",
+   "type": "aminergic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049286",
+   "name": "adult lateral horn output neuron",
+   "type": "adult lateral horn output neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00004046",
+   "post": "FBbt_00100163",
+   "weight": 3307
+  },
+  {
+   "pre": "FBbt_00004046",
+   "post": "FBbt_00050230",
+   "weight": 3294
+  },
+  {
+   "pre": "FBbt_00004046",
+   "post": "FBbt_00059247",
+   "weight": 2804
+  },
+  {
+   "pre": "FBbt_00004046",
+   "post": "FBbt_00053404",
+   "weight": 2559
+  },
+  {
+   "pre": "FBbt_00004046",
+   "post": "FBbt_00003628",
+   "weight": 1907
+  },
+  {
+   "pre": "FBbt_00004046",
+   "post": "FBbt_00050117",
+   "weight": 1838
+  },
+  {
+   "pre": "FBbt_00100163",
+   "post": "FBbt_00006048",
+   "weight": 18480.0
+  },
+  {
+   "pre": "FBbt_00100163",
+   "post": "FBbt_00003628",
+   "weight": 12763.0
+  },
+  {
+   "pre": "FBbt_00100163",
+   "post": "FBbt_00007368",
+   "weight": 9582.0
+  },
+  {
+   "pre": "FBbt_00050230",
+   "post": "FBbt_00006048",
+   "weight": 6690.0
+  },
+  {
+   "pre": "FBbt_00050230",
+   "post": "FBbt_00100163",
+   "weight": 6690.0
+  },
+  {
+   "pre": "FBbt_00050230",
+   "post": "FBbt_00003628",
+   "weight": 5965.0
+  },
+  {
+   "pre": "FBbt_00003628",
+   "post": "FBbt_00006048",
+   "weight": 14055.0
+  },
+  {
+   "pre": "FBbt_00003628",
+   "post": "FBbt_00100163",
+   "weight": 14055.0
+  },
+  {
+   "pre": "FBbt_00003628",
+   "post": "FBbt_00007368",
+   "weight": 5792.0
+  },
+  {
+   "pre": "FBbt_00050117",
+   "post": "FBbt_00048293",
+   "weight": 28831.0
+  },
+  {
+   "pre": "FBbt_00050117",
+   "post": "FBbt_00049286",
+   "weight": 14065.0
+  },
+  {
+   "pre": "FBbt_00050117",
+   "post": "FBbt_00047096",
+   "weight": 8729.0
+  }
+ ],
+ "behavior": {
+  "text": "Circadian time: the LNv pacemaker neurons broadcast pigment-dispersing factor (PDF) to clock-to-clock targets (pacemaker neurons, DN period neurons), the accessory medulla hub, and output regions (superior lateral protocerebrum, visual neuropils), gating daily rhythms of sleep, feeding, and courtship.",
+  "basis": "LNv as the PDF master pacemaker is textbook Drosophila (Renn et al 1999; Helfrich-Forster); edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "Dawn, dusk \u2014 the wheel turns on time.",
+ "honest_note": "Hop-0 = general LNv class FBbt_00004046 (657 grouped rows, first try). The specific subclasses s-LNv Pdf (FBbt_00003764) and l-LNv (FBbt_00003763) returned 0 rows in every query form (grouped id/label, named) \u2014 genuinely empty, not truncated \u2014 so the walk uses the general class where the indexed connectivity lives. Hop-1 weights are deduped sums per FBbt id (raw rows carry per-dataset duplicates); paired identical-weight classes (pacemaker/adult pacemaker, SLPpl1/DPLl1) treated as duplicated tiers, most specific member kept. CIRCUIT VS OSCILLATOR: every edge here is REAL measured wiring of the LNv output chain. The OSCILLATOR DYNAMICS \u2014 the 24h molecular clock, PDF cycling, phase \u2014 are the genuinely unmapped frontier; no API holds them, and nothing here models them.",
+ "hop0_ids": [
+  "FBbt_00004046"
+ ]
+}

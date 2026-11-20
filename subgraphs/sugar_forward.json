@@ -1,0 +1,174 @@
+{
+ "stimulus": "sugar (forward)",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/). Hop 0->1 edges: per-instance CATMAID FAFB connectivity (Engert2022) via /catmaid/fafb/connectivity, synapse counts summed across 23 sweet-GRN skeletons and aggregated by partner FBbt class (partner skeletons mapped via neuron_names + VFB search). Hop 1->2 edges: class-aggregated /query_connectivity (FlyWire FAFB v783). Edge weight = total synapse count.",
+ "nodes": [
+  {
+   "id": "FBbt_00049614",
+   "name": "sweet-sensing gustatory receptor neuron",
+   "type": "sweet-sensing gustatory receptor neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00052223",
+   "name": "adult zorro subesophageal neuron",
+   "type": "adult zorro subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051867",
+   "name": "adult clavicle subesophageal neuron",
+   "type": "adult clavicle subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051880",
+   "name": "adult FMIn subesophageal neuron",
+   "type": "adult FMIn subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052227",
+   "name": "adult fuchs subesophageal neuron",
+   "type": "adult fuchs subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051850",
+   "name": "G2N-1 (adult gustatory second-order neuron type 1)",
+   "type": "G2N-1 (adult gustatory second-order neuron type 1)",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052228",
+   "name": "adult billiards subesophageal neuron",
+   "type": "adult billiards subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "type": "subesophageal zone neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "type": "gnathal ganglion neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00049614",
+   "post": "FBbt_00052223",
+   "weight": 332
+  },
+  {
+   "pre": "FBbt_00049614",
+   "post": "FBbt_00051867",
+   "weight": 270
+  },
+  {
+   "pre": "FBbt_00049614",
+   "post": "FBbt_00051880",
+   "weight": 240
+  },
+  {
+   "pre": "FBbt_00049614",
+   "post": "FBbt_00052227",
+   "weight": 227
+  },
+  {
+   "pre": "FBbt_00049614",
+   "post": "FBbt_00051850",
+   "weight": 181
+  },
+  {
+   "pre": "FBbt_00049614",
+   "post": "FBbt_00052228",
+   "weight": 141
+  },
+  {
+   "pre": "FBbt_00052223",
+   "post": "FBbt_00001972",
+   "weight": 1368
+  },
+  {
+   "pre": "FBbt_00052223",
+   "post": "FBbt_00052032",
+   "weight": 1351
+  },
+  {
+   "pre": "FBbt_00052223",
+   "post": "FBbt_00047511",
+   "weight": 669
+  },
+  {
+   "pre": "FBbt_00051867",
+   "post": "FBbt_00001972",
+   "weight": 842
+  },
+  {
+   "pre": "FBbt_00051867",
+   "post": "FBbt_00052032",
+   "weight": 834
+  },
+  {
+   "pre": "FBbt_00051867",
+   "post": "FBbt_00047511",
+   "weight": 484
+  },
+  {
+   "pre": "FBbt_00051880",
+   "post": "FBbt_00001972",
+   "weight": 2423
+  },
+  {
+   "pre": "FBbt_00051880",
+   "post": "FBbt_00052032",
+   "weight": 2373
+  },
+  {
+   "pre": "FBbt_00051880",
+   "post": "FBbt_00047511",
+   "weight": 1660
+  },
+  {
+   "pre": "FBbt_00051850",
+   "post": "FBbt_00001972",
+   "weight": 981
+  },
+  {
+   "pre": "FBbt_00051850",
+   "post": "FBbt_00052032",
+   "weight": 613
+  },
+  {
+   "pre": "FBbt_00051850",
+   "post": "FBbt_00047511",
+   "weight": 594
+  }
+ ],
+ "behavior": {
+  "text": "Sweet taste drives gustatory second-order SEZ interneurons (Zorro, Clavicle, Fuchs, FMIN, Dandelion, G2N-1 and others), which converge on SEZ, gnathal and descending premotor populations driving proboscis extension.",
+  "basis": "resolved forward walk: sweet-GRN instances -> named SEZ interneuron classes (CATMAID FAFB, Engert2022) -> SEZ/gnathal/descending classes (FlyWire v783)"
+ },
+ "fly_narration": "Sweet on the tongue \u2014 reach out.",
+ "hop0_ids": [
+  "FBbt_00049614"
+ ],
+ "method": {
+  "hop0_class": "FBbt_00049614",
+  "instance_aggregation": {
+   "n_skeletons_queried": 23,
+   "endpoint": "/catmaid/fafb/connectivity (POST)",
+   "partner_mapping": "neuron_names -> VFB search -> FBbt class"
+  }
+ }
+}

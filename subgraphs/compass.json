@@ -1,0 +1,161 @@
+{
+  "stimulus": "compass",
+  "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated connectivity (named DownstreamClassConnectivity fallback \u2014 grouped query truncated server-side), edge weight = total synapse count",
+  "behavior": {
+    "text": "Heading direction: E-PG ring neurons carry the fly's internal compass \u2014 an activity bump that tracks heading around the ellipsoid body, feeding ring neurons, protocerebral-bridge intrinsics, and fan-shaped-body steering outputs.",
+    "basis": "E-PG as the heading-direction ring is textbook Drosophila (Seelig & Jayaraman 2015; Green et al 2017); edges below are the resolved API walk, stated as measured wiring"
+  },
+  "fly_narration": "North lives here \u2014 hold it, turn it.",
+  "honest_note": "Hop-1 takes the top-6 specific classes by synapse weight; duplicated ancestor/child tiers are represented by their most specific member; generic ontology buckets skipped (documented in build_compass.py). E-PG->E-PG itself (tw=14614) is REAL recurrence, skipped per the no-self-loop convention, recorded here not hidden. Real below-cutoff partners worth noting (same pattern as pIP10 in mating / giant fiber in looming): Delta7 'adult intrinsic protocerebral bridge 18 glomeruli-delta7 neuron' (tw=30232, the ring's global inhibition), PEN 'adult protocerebral bridge 1 glomerulus-ellipsoid body tile-nodulus 1 neuron' (tw=26851), PFN 'adult protocerebral bridge 1 glomerulus-fan-shaped body-nodulus neuron' (tw=12306), PFL 'adult protocerebral bridge 1 glomerulus-fan-shaped body-lateral accessory lobe neuron' (tw=12066), 'adult ellipsoid body R-neuron' (tw=18246). CIRCUIT VS DYNAMICS: every edge is REAL measured wiring of E-PG's downstream chain. The RING-ATTRACTOR DYNAMICS \u2014 how the activity bump moves, holds, and updates heading \u2014 are the genuinely unmapped frontier; no API holds them and this graph models none of them.",
+  "hop0_ids": [
+    "FBbt_00047030"
+  ],
+  "nodes": [
+    {
+      "id": "FBbt_00047030",
+      "name": "E-PG neuron (adult ellipsoid body-protocerebral bridge 1 glomerulus-dorsal/ventral gall neuron)",
+      "type": "E-PG neuron (adult ellipsoid body-protocerebral bridge 1 glomerulus-dorsal/ventral gall neuron)",
+      "hop": 0
+    },
+    {
+      "id": "FBbt_00007514",
+      "name": "small field neuron of the central complex",
+      "type": "small field neuron of the central complex",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00007515",
+      "name": "large field neuron of the central complex",
+      "type": "large field neuron of the central complex",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00053387",
+      "name": "intrinsic neuron of the central complex",
+      "type": "intrinsic neuron of the central complex",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00003649",
+      "name": "adult ellipsoid body ring neuron",
+      "type": "adult ellipsoid body ring neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00003654",
+      "name": "adult ellipsoid body extrinsic ring neuron",
+      "type": "adult ellipsoid body extrinsic ring neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00050171",
+      "name": "adult PBp1 lineage neuron",
+      "type": "adult PBp1 lineage neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00049819",
+      "name": "adult central complex neuron",
+      "type": "adult central complex neuron",
+      "hop": 2
+    },
+    {
+      "id": "FBbt_00003633",
+      "name": "small field neuron",
+      "type": "small field neuron",
+      "hop": 2
+    }
+  ],
+  "edges": [
+    {
+      "pre": "FBbt_00047030",
+      "post": "FBbt_00007514",
+      "weight": 99914
+    },
+    {
+      "pre": "FBbt_00047030",
+      "post": "FBbt_00007515",
+      "weight": 91386
+    },
+    {
+      "pre": "FBbt_00047030",
+      "post": "FBbt_00053387",
+      "weight": 70552
+    },
+    {
+      "pre": "FBbt_00047030",
+      "post": "FBbt_00003649",
+      "weight": 54362
+    },
+    {
+      "pre": "FBbt_00047030",
+      "post": "FBbt_00003654",
+      "weight": 36116
+    },
+    {
+      "pre": "FBbt_00047030",
+      "post": "FBbt_00050171",
+      "weight": 31578
+    },
+    {
+      "pre": "FBbt_00007515",
+      "post": "FBbt_00049819",
+      "weight": 2623879.0
+    },
+    {
+      "pre": "FBbt_00007515",
+      "post": "FBbt_00007514",
+      "weight": 1583900.0
+    },
+    {
+      "pre": "FBbt_00007515",
+      "post": "FBbt_00003633",
+      "weight": 1583900.0
+    },
+    {
+      "pre": "FBbt_00053387",
+      "post": "FBbt_00049819",
+      "weight": 1396680.0
+    },
+    {
+      "pre": "FBbt_00053387",
+      "post": "FBbt_00007514",
+      "weight": 956224.0
+    },
+    {
+      "pre": "FBbt_00053387",
+      "post": "FBbt_00003633",
+      "weight": 956224.0
+    },
+    {
+      "pre": "FBbt_00003654",
+      "post": "FBbt_00049819",
+      "weight": 171575
+    },
+    {
+      "pre": "FBbt_00003654",
+      "post": "FBbt_00007514",
+      "weight": 101554
+    },
+    {
+      "pre": "FBbt_00003654",
+      "post": "FBbt_00003633",
+      "weight": 101554
+    },
+    {
+      "pre": "FBbt_00050171",
+      "post": "FBbt_00049819",
+      "weight": 223804.0
+    },
+    {
+      "pre": "FBbt_00050171",
+      "post": "FBbt_00007514",
+      "weight": 158186.0
+    },
+    {
+      "pre": "FBbt_00050171",
+      "post": "FBbt_00003633",
+      "weight": 158186.0
+    }
+  ]
+}

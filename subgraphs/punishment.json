@@ -1,0 +1,227 @@
+{
+ "stimulus": "punishment",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00100243",
+   "name": "PPL1-gamma1pedc (dopaminergic PPL1 neuron)",
+   "type": "PPL1-gamma1pedc (dopaminergic PPL1 neuron)",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00110320",
+   "name": "MB-alpha neuron of the dopaminergic PPL1 cluster",
+   "type": "MB-alpha neuron of the dopaminergic PPL1 cluster",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00007484",
+   "name": "mushroom body intrinsic neuron",
+   "type": "mushroom body intrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100227",
+   "name": "mushroom body extrinsic neuron",
+   "type": "mushroom body extrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007368",
+   "name": "aminergic neuron",
+   "type": "aminergic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00058201",
+   "name": "adult aminergic neuron",
+   "type": "adult aminergic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00005131",
+   "name": "dopaminergic neuron",
+   "type": "dopaminergic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047953",
+   "name": "mushroom body output neuron",
+   "type": "mushroom body output neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047955",
+   "name": "adult mushroom body output neuron",
+   "type": "adult mushroom body output neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049843",
+   "name": "adult typical mushroom body output neuron",
+   "type": "adult typical mushroom body output neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059245",
+   "name": "adult central brain intrinsic neuron",
+   "type": "adult central brain intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00058206",
+   "name": "adult dopaminergic neuron",
+   "type": "adult dopaminergic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00100243",
+   "post": "FBbt_00007484",
+   "weight": 4189
+  },
+  {
+   "pre": "FBbt_00100243",
+   "post": "FBbt_00100227",
+   "weight": 4091
+  },
+  {
+   "pre": "FBbt_00100243",
+   "post": "FBbt_00007368",
+   "weight": 3985
+  },
+  {
+   "pre": "FBbt_00100243",
+   "post": "FBbt_00058201",
+   "weight": 3985
+  },
+  {
+   "pre": "FBbt_00100243",
+   "post": "FBbt_00005131",
+   "weight": 3967
+  },
+  {
+   "pre": "FBbt_00110320",
+   "post": "FBbt_00047096",
+   "weight": 1550
+  },
+  {
+   "pre": "FBbt_00110320",
+   "post": "FBbt_00047953",
+   "weight": 1344
+  },
+  {
+   "pre": "FBbt_00110320",
+   "post": "FBbt_00100227",
+   "weight": 1344
+  },
+  {
+   "pre": "FBbt_00110320",
+   "post": "FBbt_00047955",
+   "weight": 1344
+  },
+  {
+   "pre": "FBbt_00110320",
+   "post": "FBbt_00049843",
+   "weight": 1339
+  },
+  {
+   "pre": "FBbt_00100227",
+   "post": "FBbt_00059245",
+   "weight": 1257578.0
+  },
+  {
+   "pre": "FBbt_00100227",
+   "post": "FBbt_00007368",
+   "weight": 857054.0
+  },
+  {
+   "pre": "FBbt_00100227",
+   "post": "FBbt_00058201",
+   "weight": 856598.0
+  },
+  {
+   "pre": "FBbt_00007368",
+   "post": "FBbt_00058201",
+   "weight": 1973360.0
+  },
+  {
+   "pre": "FBbt_00007368",
+   "post": "FBbt_00005131",
+   "weight": 1682939.0
+  },
+  {
+   "pre": "FBbt_00007368",
+   "post": "FBbt_00058206",
+   "weight": 1682832.0
+  },
+  {
+   "pre": "FBbt_00047953",
+   "post": "FBbt_00100227",
+   "weight": 71100.0
+  },
+  {
+   "pre": "FBbt_00047953",
+   "post": "FBbt_00048293",
+   "weight": 61840.0
+  },
+  {
+   "pre": "FBbt_00047953",
+   "post": "FBbt_00007368",
+   "weight": 55780.0
+  },
+  {
+   "pre": "FBbt_00047955",
+   "post": "FBbt_00100227",
+   "weight": 69078.0
+  },
+  {
+   "pre": "FBbt_00047955",
+   "post": "FBbt_00048293",
+   "weight": 61840.0
+  },
+  {
+   "pre": "FBbt_00047955",
+   "post": "FBbt_00007368",
+   "weight": 55564.0
+  },
+  {
+   "pre": "FBbt_00049843",
+   "post": "FBbt_00100227",
+   "weight": 52438.0
+  },
+  {
+   "pre": "FBbt_00049843",
+   "post": "FBbt_00048293",
+   "weight": 49260.0
+  },
+  {
+   "pre": "FBbt_00049843",
+   "post": "FBbt_00047096",
+   "weight": 39425.0
+  }
+ ],
+ "behavior": {
+  "text": "Punishment learning: PPL1 cluster dopaminergic neurons convey aversive reinforcement to the mushroom body, depressing the associated stimulus/context.",
+  "basis": "textbook Drosophila aversive circuit (PPL1 DANs -> mushroom body Kenyon cells / MBONs of the aversive compartments); stated as known biology"
+ },
+ "fly_narration": "Bad \u2014 never again.",
+ "hop0_ids": [
+  "FBbt_00100243",
+  "FBbt_00110320"
+ ],
+ "honest_note": "PAM/PPL1 OPPONENT ORGANIZATION: the mushroom body is tiled into compartments, each co-innervated by dopaminergic neurons (DANs) and mushroom body output neurons (MBONs). PAM-cluster DANs (reward.json: 'dopaminergic PAM neuron 1') innervate APPETITIVE compartments and drive approach learning; PPL1-cluster DANs (this file: PPL1-gamma1pedc + PPL1-alpha3) innervate AVERSIVE compartments and drive avoidance learning. Same MB architecture, opponent valence \u2014 reward and punishment are the two halves of one teaching signal. Query notes: general 'dopaminergic PPL1 neuron' (FBbt_00100219) fails server-side in all forms; 'dopaminergic PPL1 neuron 2' fails; MB-SV (FBbt_00110323) returns 0 rows \u2014 all logged in GAPS.md. hop0 is a documented merge of the two canonical aversive PPL1 DANs whose connectivity is indexed."
+}

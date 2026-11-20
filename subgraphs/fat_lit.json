@@ -1,0 +1,206 @@
+{
+  "stimulus": "fatty acid taste (medium-chain, Ir56d-dependent)",
+  "source": "CONVERGENT HYPOTHESIS \u2014 not a pure API product. Hop 0->1 edges: literature-grounded hypothesis (see builder docstring). Hop 1->2 edges: Virtual Fly Brain VFBquery HTTP API, FlyWire v783 (via subgraphs/sugar_forward.json).",
+  "nodes": [
+    {
+      "id": "FBbt_00048015",
+      "name": "adult Ir56d neuron of labellar taste bristle",
+      "hop": 0
+    },
+    {
+      "id": "FBbt_00052223",
+      "name": "adult zorro subesophageal neuron",
+      "type": "adult zorro subesophageal neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00051867",
+      "name": "adult clavicle subesophageal neuron",
+      "type": "adult clavicle subesophageal neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00051880",
+      "name": "adult FMIn subesophageal neuron",
+      "type": "adult FMIn subesophageal neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00052227",
+      "name": "adult fuchs subesophageal neuron",
+      "type": "adult fuchs subesophageal neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00051850",
+      "name": "G2N-1 (adult gustatory second-order neuron type 1)",
+      "type": "G2N-1 (adult gustatory second-order neuron type 1)",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00052228",
+      "name": "adult billiards subesophageal neuron",
+      "type": "adult billiards subesophageal neuron",
+      "hop": 1
+    },
+    {
+      "id": "FBbt_00001972",
+      "name": "subesophageal zone neuron",
+      "type": "subesophageal zone neuron",
+      "hop": 2
+    },
+    {
+      "id": "FBbt_00052032",
+      "name": "gnathal ganglion neuron",
+      "type": "gnathal ganglion neuron",
+      "hop": 2
+    },
+    {
+      "id": "FBbt_00047511",
+      "name": "adult descending neuron",
+      "type": "adult descending neuron",
+      "hop": 2
+    }
+  ],
+  "edges": [
+    {
+      "pre": "FBbt_00048015",
+      "post": "FBbt_00052223",
+      "weight": 1,
+      "provenance": "LITERATURE-HYPOTHESIS",
+      "citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (IR56d subset of sweet-sensing Gr64f GRNs; posterior projections overlap sweet SEZ region); Brown et al. 2021, eLife 67878.",
+      "note": "Hypothesized: bristle IR56d GRNs are sweet-sensing GRNs projecting to the same posterior SEZ region; predicted to contact the same second-order interneurons. Individual Ir56d->adult zorro subesophageal neuron synapses are NOT measured."
+    },
+    {
+      "pre": "FBbt_00048015",
+      "post": "FBbt_00051867",
+      "weight": 1,
+      "provenance": "LITERATURE-HYPOTHESIS",
+      "citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (IR56d subset of sweet-sensing Gr64f GRNs; posterior projections overlap sweet SEZ region); Brown et al. 2021, eLife 67878.",
+      "note": "Hypothesized: bristle IR56d GRNs are sweet-sensing GRNs projecting to the same posterior SEZ region; predicted to contact the same second-order interneurons. Individual Ir56d->adult clavicle subesophageal neuron synapses are NOT measured."
+    },
+    {
+      "pre": "FBbt_00048015",
+      "post": "FBbt_00051880",
+      "weight": 1,
+      "provenance": "LITERATURE-HYPOTHESIS",
+      "citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (IR56d subset of sweet-sensing Gr64f GRNs; posterior projections overlap sweet SEZ region); Brown et al. 2021, eLife 67878.",
+      "note": "Hypothesized: bristle IR56d GRNs are sweet-sensing GRNs projecting to the same posterior SEZ region; predicted to contact the same second-order interneurons. Individual Ir56d->adult FMIn subesophageal neuron synapses are NOT measured."
+    },
+    {
+      "pre": "FBbt_00048015",
+      "post": "FBbt_00052227",
+      "weight": 1,
+      "provenance": "LITERATURE-HYPOTHESIS",
+      "citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (IR56d subset of sweet-sensing Gr64f GRNs; posterior projections overlap sweet SEZ region); Brown et al. 2021, eLife 67878.",
+      "note": "Hypothesized: bristle IR56d GRNs are sweet-sensing GRNs projecting to the same posterior SEZ region; predicted to contact the same second-order interneurons. Individual Ir56d->adult fuchs subesophageal neuron synapses are NOT measured."
+    },
+    {
+      "pre": "FBbt_00048015",
+      "post": "FBbt_00051850",
+      "weight": 1,
+      "provenance": "LITERATURE-HYPOTHESIS",
+      "citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (IR56d subset of sweet-sensing Gr64f GRNs; posterior projections overlap sweet SEZ region); Brown et al. 2021, eLife 67878.",
+      "note": "Hypothesized: bristle IR56d GRNs are sweet-sensing GRNs projecting to the same posterior SEZ region; predicted to contact the same second-order interneurons. Individual Ir56d->G2N-1 (adult gustatory second-order neuron type 1) synapses are NOT measured."
+    },
+    {
+      "pre": "FBbt_00048015",
+      "post": "FBbt_00052228",
+      "weight": 1,
+      "provenance": "LITERATURE-HYPOTHESIS",
+      "citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (IR56d subset of sweet-sensing Gr64f GRNs; posterior projections overlap sweet SEZ region); Brown et al. 2021, eLife 67878.",
+      "note": "Hypothesized: bristle IR56d GRNs are sweet-sensing GRNs projecting to the same posterior SEZ region; predicted to contact the same second-order interneurons. Individual Ir56d->adult billiards subesophageal neuron synapses are NOT measured."
+    },
+    {
+      "pre": "FBbt_00052223",
+      "post": "FBbt_00001972",
+      "weight": 1368,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00052223",
+      "post": "FBbt_00052032",
+      "weight": 1351,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00052223",
+      "post": "FBbt_00047511",
+      "weight": 669,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051867",
+      "post": "FBbt_00001972",
+      "weight": 842,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051867",
+      "post": "FBbt_00052032",
+      "weight": 834,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051867",
+      "post": "FBbt_00047511",
+      "weight": 484,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051880",
+      "post": "FBbt_00001972",
+      "weight": 2423,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051880",
+      "post": "FBbt_00052032",
+      "weight": 2373,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051880",
+      "post": "FBbt_00047511",
+      "weight": 1660,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051850",
+      "post": "FBbt_00001972",
+      "weight": 981,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051850",
+      "post": "FBbt_00052032",
+      "weight": 613,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    },
+    {
+      "pre": "FBbt_00051850",
+      "post": "FBbt_00047511",
+      "weight": 594,
+      "provenance": "REAL",
+      "note": "FlyWire v783 API row (via sugar_forward.json)."
+    }
+  ],
+  "behavior": "Medium-chain fatty acids activate bristle IR56d GRNs (a subset of sweet-sensing neurons); predicted to drive the sweet second-order SEZ circuit and proboscis extension.",
+  "fly_narration": "HYPOTHESIS: the fat taste rides the sweet road into the brain.",
+  "hop0_ids": [
+    "FBbt_00048015"
+  ],
+  "method": "build_fat_lit.py",
+  "honest_note": "PROVENANCE SPLIT \u2014 read before using. Hop 0 (FBbt_00048015, bristle IR56d GRN) -> hop 1 (zorro/clavicle/FMIn/fuchs/G2N-1/billiards): LITERATURE-HYPOTHESIS. Grounded in: (1) IR56d neurons are a subset of sweet-sensing Gr64f GRNs, necessary/sufficient for medium-chain FA PER (Tauber et al. 2017); (2) their posterior bristle projections overlap the sweet-sensing SEZ region (Tauber et al. 2017; Brown et al. 2021). The prediction is that they contact the same named second-order SEZ interneurons that sweet GRNs drive. NO individual Ir56d->interneuron synapse is measured anywhere \u2014 this is a testable prediction for future connectomic verification, not a wiring claim. Hop 1 -> hop 2 edges are REAL FlyWire v783 rows. REMAINING GAP: the taste-peg E409 IR56d population (FBbt_00048014, anterior SEZ projections) has NO literature-named and NO API-indexed downstream \u2014 unmapped in both. Do not present hypothesis edges as measured wiring."
+}

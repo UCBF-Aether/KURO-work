@@ -1,0 +1,221 @@
+{
+ "stimulus": "aggression",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00110593",
+   "name": "aIPg (adult fruitless aIP-g (male) neuron)",
+   "type": "aIPg (adult fruitless aIP-g (male) neuron)",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00050114",
+   "name": "adult SMPpv2 lineage neuron",
+   "type": "adult SMPpv2 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100706",
+   "name": "CP1 lineage neuron",
+   "type": "CP1 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050227",
+   "name": "adult VLPl2 lineage neuron",
+   "type": "adult VLPl2 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100711",
+   "name": "BLAv2 lineage neuron",
+   "type": "BLAv2 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_20002916",
+   "name": "adult superior medial protocerebrum neuron 054",
+   "type": "adult superior medial protocerebrum neuron 054",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_20002074",
+   "name": "adult posterior ventrolateral protocerebrum neuron 016",
+   "type": "adult posterior ventrolateral protocerebrum neuron 016",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00050203",
+   "name": "adult SMPad2 lineage neuron",
+   "type": "adult SMPad2 lineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049539",
+   "name": "Notch ON hemilineage neuron",
+   "type": "Notch ON hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00050129",
+   "name": "adult AOTUv3 lineage neuron",
+   "type": "adult AOTUv3 lineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00053619",
+   "name": "CP1 ventral hemilineage neuron",
+   "type": "CP1 ventral hemilineage neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00110593",
+   "post": "FBbt_00050114",
+   "weight": 2282
+  },
+  {
+   "pre": "FBbt_00110593",
+   "post": "FBbt_00100706",
+   "weight": 2282
+  },
+  {
+   "pre": "FBbt_00110593",
+   "post": "FBbt_00050227",
+   "weight": 2258
+  },
+  {
+   "pre": "FBbt_00110593",
+   "post": "FBbt_00100711",
+   "weight": 2258
+  },
+  {
+   "pre": "FBbt_00110593",
+   "post": "FBbt_20002916",
+   "weight": 2202
+  },
+  {
+   "pre": "FBbt_00110593",
+   "post": "FBbt_20002074",
+   "weight": 2182
+  },
+  {
+   "pre": "FBbt_00050114",
+   "post": "FBbt_00059289",
+   "weight": 79625.0
+  },
+  {
+   "pre": "FBbt_00050114",
+   "post": "FBbt_00001983",
+   "weight": 57013.0
+  },
+  {
+   "pre": "FBbt_00050114",
+   "post": "FBbt_00047511",
+   "weight": 51378.0
+  },
+  {
+   "pre": "FBbt_00100706",
+   "post": "FBbt_00059289",
+   "weight": 79625.0
+  },
+  {
+   "pre": "FBbt_00100706",
+   "post": "FBbt_00001983",
+   "weight": 57013.0
+  },
+  {
+   "pre": "FBbt_00100706",
+   "post": "FBbt_00047511",
+   "weight": 51378.0
+  },
+  {
+   "pre": "FBbt_00050227",
+   "post": "FBbt_00047511",
+   "weight": 59301.0
+  },
+  {
+   "pre": "FBbt_00050227",
+   "post": "FBbt_00100711",
+   "weight": 53438.0
+  },
+  {
+   "pre": "FBbt_00050227",
+   "post": "FBbt_00050114",
+   "weight": 29945.0
+  },
+  {
+   "pre": "FBbt_00100711",
+   "post": "FBbt_00047511",
+   "weight": 59301.0
+  },
+  {
+   "pre": "FBbt_00100711",
+   "post": "FBbt_00050227",
+   "weight": 53438.0
+  },
+  {
+   "pre": "FBbt_00100711",
+   "post": "FBbt_00050114",
+   "weight": 29945.0
+  },
+  {
+   "pre": "FBbt_20002916",
+   "post": "FBbt_00050203",
+   "weight": 343.0
+  },
+  {
+   "pre": "FBbt_20002916",
+   "post": "FBbt_00049539",
+   "weight": 208.0
+  },
+  {
+   "pre": "FBbt_20002916",
+   "post": "FBbt_00050129",
+   "weight": 203.0
+  },
+  {
+   "pre": "FBbt_20002074",
+   "post": "FBbt_00050114",
+   "weight": 2918
+  },
+  {
+   "pre": "FBbt_20002074",
+   "post": "FBbt_00100706",
+   "weight": 2918
+  },
+  {
+   "pre": "FBbt_20002074",
+   "post": "FBbt_00053619",
+   "weight": 2725
+  }
+ ],
+ "behavior": {
+  "text": "Male aggression command: the fru+ aIPg cluster drives fighting behavior \u2014 lunging, boxing, wing threat \u2014 through superior/posterior protocerebrum integration populations (SMPpv2, CP1, VLPl2, BLAv2) toward motor output.",
+  "basis": "aIPg as a male fru+ aggression cluster is textbook Drosophila; edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "Mine \u2014 lunge, strike, hold.",
+ "honest_note": "Hop-1 skips 'Notch OFF hemilineage neuron' (tw=3434) and 'Notch ON hemilineage neuron' (tw=2024) as generic developmental buckets, and 'fruitless expressing neuron' (tw=2054) as the fru parent bucket \u2014 same spirit as the GENERIC blocklist. CONVERGENCE WITH MATING: the aggression chain MEETS the P1 mating chain at FBbt_00016687 'fruitless expressing neuron' \u2014 aIPg feeds it (tw=2054) and P1's fruitless aSP-a feeds it (tw=63139, mating.json). The fru+ fight and fru+ courtship systems share this node \u2014 the same node where the pheromone chain also converges. aSPg: no FBbt class found under that name ('aSPg neuron' / 'fight neuron' searches return nothing). CL062 (FBbt_20000767, adult clamp neuron 062 / male wing aggression neuron) exists as a related aggression class but was not walked \u2014 noted, not hidden. CIRCUIT VS DRIVE: every edge here is REAL measured wiring of aIPg's downstream chain. The AGGRESSION-DRIVE DYNAMICS \u2014 how aggressive arousal ramps, persists, and arbitrates against mating/hunger \u2014 are the genuinely unmapped frontier; no API holds them, and nothing here models them.",
+ "hop0_ids": [
+  "FBbt_00110593"
+ ]
+}

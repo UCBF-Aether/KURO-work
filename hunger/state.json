@@ -1,0 +1,13 @@
+{
+ "graph": "/home/hatch/workspace/fly-brain/hunger/../subgraphs/sugar_forward.json",
+ "wanting": 0.15,
+ "drive_signal": 0.0,
+ "satiation": 0.16575489657698853,
+ "habituation": {
+  "refactor": 1.0
+ },
+ "refractory_until": 7.999896755000009,
+ "last_spike": 0.2367927093956979,
+ "category": "refactor",
+ "difficulty": 0.6
+}

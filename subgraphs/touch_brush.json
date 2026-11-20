@@ -1,0 +1,41 @@
+{
+ "stimulus": "touch_brush",
+ "source": "Virtual Fly Brain VFBquery HTTP API (FlyWire FAFB v783) + primary literature. The API holds zero rows for bristle downstream in any form (GAPS.md \u00a76); the single edge here is LITERATURE-HYPOTHESIS, never an API row.",
+ "nodes": [
+  {
+   "id": "FBbt_00048508",
+   "name": "bristle mechanosensory neuron",
+   "type": "bristle mechanosensory neuron",
+   "hop": 0,
+   "provenance": "REAL",
+   "note": "General bristle class; 0 API rows downstream in every form (GAPS.md \u00a76)."
+  },
+  {
+   "id": "MGT_literature",
+   "name": "Mago-no-Te (MGT) command neuron",
+   "type": "command neuron",
+   "hop": 1,
+   "provenance": "LITERATURE-HYPOTHESIS",
+   "note": "NO FBbt class (too new for the ontology). Pair of cholinergic command-like neurons for thoracic grooming; posterior macrochaete bristle BMNs synapse onto MGT (t-GRASP + FANC EM)."
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00048508",
+   "post": "MGT_literature",
+   "weight": 1,
+   "provenance": "LITERATURE-HYPOTHESIS",
+   "citation": "Yoshikawa, Tang & Simpson, Curr Biol (bioRxiv 2023.11.19.567707; PMC10690200): 'Posterior macrochaete mechanosensory bristle neurons synapse onto MGT' (t-GRASP + FANC/MANC EM)",
+   "note": "Placeholder weight: no synapse counts extracted. The API holds zero rows for this edge in any reachable form."
+  }
+ ],
+ "behavior": {
+  "text": "Light touch: bristle deflection drives bristle mechanoreceptors; the fly registers gentle contact.",
+  "basis": "LITERATURE-HYPOTHESIS (Yoshikawa, Tang & Simpson, Curr Biol via bioRxiv 2023: posterior macrochaete bristle neurons synapse onto the MGT grooming command neuron, t-GRASP + FANC EM). The API indexes no bristle downstream wiring (GAPS.md \u00a76), so this edge is a cited hypothesis, not measured wiring. Full provenance in subgraphs/touch_qualities_lit.json."
+ },
+ "fly_narration": "A whisper of touch \u2014 notice.",
+ "hop0_ids": [
+  "FBbt_00048508"
+ ],
+ "honest_note": "Re-pointed 2026-10-14: was an honest 1-node stub; the touch-qualities own-method solve supplied a cited literature edge (bristle->MGT, hypothesis, weight placeholder 1). Never presented as API wiring."
+}

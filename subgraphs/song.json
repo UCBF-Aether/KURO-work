@@ -1,0 +1,22 @@
+{
+ "stimulus": "song",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 + BANC v888 connectome; class-aggregated /query_connectivity",
+ "nodes": [
+  {
+   "id": "FBbt_00110120",
+   "name": "AMMC-B1 neuron",
+   "type": "antennal mechanosensory and motor center B1 projection neuron (= aPN1a,b per VFB synonyms; second-order song-relay neuron)",
+   "hop": 0
+  }
+ ],
+ "edges": [],
+ "behavior": {
+  "text": "Courtship-song hearing: the fly detects a mate's pulse song via Johnston's organ auditory neurons and relays it through AMMC to central courtship circuits.",
+  "basis": "textbook Drosophila courtship-song pathway (JO-B -> AMMC-B1 -> vPN1 -> pC1); stated as known biology \u2014 the API indexes none of these links (see honest_note)"
+ },
+ "fly_narration": "A song in the air \u2014 listen.",
+ "hop0_ids": [
+  "FBbt_00110120"
+ ],
+ "honest_note": "HONEST STUB: the courtship-song relay classes are unindexed in every VFBquery-reachable dataset. AMMC-B1 (FBbt_00110120, the song-relay projection neuron): 0 downstream rows (grouped id+label), named DownstreamClassConnectivity dies server-side, BANC v888 0 rows; 5 FAFB skeletons exist but tracings are ~empty (48 partners / 75 synapses, mostly placeholder neurons). vPN1 (FBbt_00111295, third-order song neuron): 0 downstream, 0 upstream rows. Intrinsic AMMC neuron (FBbt_00111352): 0/0. AVLP_pr01 (FBbt_00052102): 0 downstream. pC1-male (FBbt_00047348): 0 upstream rows; pC1-general upstream gives only generic ontology buckets. P1 (FBbt_00110621): 0 upstream rows. Per-pair probes (AMMC-B1/vPN1/AVLP->pC1, JO-B->AMMC-B1): all 0. See subgraphs/song_lit.json for the literature-grounded hypothesis chain (JO-B -> AMMC-B1 -> vPN1 -> pC1), edges labeled LITERATURE-HYPOTHESIS, none presented as measured wiring."
+}

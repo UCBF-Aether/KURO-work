@@ -1,0 +1,227 @@
+{
+ "stimulus": "water",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/). Hop 0->1 edges: per-instance CATMAID FAFB connectivity (Engert2022) via /catmaid/fafb/connectivity, synapse counts summed across 22 water-GRN skeletons and aggregated by partner FBbt class (partner skeletons mapped via neuron_names + VFB search). Hop 1->2 edges: class-aggregated /query_connectivity (FlyWire FAFB v783). Edge weight = total synapse count.",
+ "nodes": [
+  {
+   "id": "FBbt_00100042",
+   "name": "water-sensing neuron of labellar taste bristle",
+   "type": "water-sensing neuron of labellar taste bristle",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00051883",
+   "name": "adult fudog subesophageal neuron",
+   "type": "adult fudog subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051867",
+   "name": "adult clavicle subesophageal neuron",
+   "type": "adult clavicle subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051868",
+   "name": "adult cleaver subesophageal neuron",
+   "type": "adult cleaver subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051927",
+   "name": "adult phantom subesophageal neuron",
+   "type": "adult phantom subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051956",
+   "name": "adult usnea subesophageal neuron",
+   "type": "adult usnea subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052223",
+   "name": "adult zorro subesophageal neuron",
+   "type": "adult zorro subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "type": "subesophageal zone neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "type": "gnathal ganglion neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007695",
+   "name": "gustatory system neuron",
+   "type": "gustatory system neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007696",
+   "name": "chemosensory system neuron",
+   "type": "chemosensory system neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00005927",
+   "name": "gustatory receptor neuron",
+   "type": "gustatory receptor neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00100042",
+   "post": "FBbt_00051883",
+   "weight": 224
+  },
+  {
+   "pre": "FBbt_00100042",
+   "post": "FBbt_00051867",
+   "weight": 169
+  },
+  {
+   "pre": "FBbt_00100042",
+   "post": "FBbt_00051868",
+   "weight": 139
+  },
+  {
+   "pre": "FBbt_00100042",
+   "post": "FBbt_00051927",
+   "weight": 103
+  },
+  {
+   "pre": "FBbt_00100042",
+   "post": "FBbt_00051956",
+   "weight": 96
+  },
+  {
+   "pre": "FBbt_00100042",
+   "post": "FBbt_00052223",
+   "weight": 96
+  },
+  {
+   "pre": "FBbt_00051883",
+   "post": "FBbt_00049540",
+   "weight": 1835
+  },
+  {
+   "pre": "FBbt_00051883",
+   "post": "FBbt_00059289",
+   "weight": 1788
+  },
+  {
+   "pre": "FBbt_00051883",
+   "post": "FBbt_00001983",
+   "weight": 1569
+  },
+  {
+   "pre": "FBbt_00051867",
+   "post": "FBbt_00001972",
+   "weight": 842
+  },
+  {
+   "pre": "FBbt_00051867",
+   "post": "FBbt_00052032",
+   "weight": 834
+  },
+  {
+   "pre": "FBbt_00051867",
+   "post": "FBbt_00047511",
+   "weight": 484
+  },
+  {
+   "pre": "FBbt_00051927",
+   "post": "FBbt_00001972",
+   "weight": 1024
+  },
+  {
+   "pre": "FBbt_00051927",
+   "post": "FBbt_00052032",
+   "weight": 1000
+  },
+  {
+   "pre": "FBbt_00051927",
+   "post": "FBbt_00047511",
+   "weight": 530
+  },
+  {
+   "pre": "FBbt_00051956",
+   "post": "FBbt_00007695",
+   "weight": 4230
+  },
+  {
+   "pre": "FBbt_00051956",
+   "post": "FBbt_00007696",
+   "weight": 4230
+  },
+  {
+   "pre": "FBbt_00051956",
+   "post": "FBbt_00005927",
+   "weight": 3772
+  },
+  {
+   "pre": "FBbt_00052223",
+   "post": "FBbt_00001972",
+   "weight": 1368
+  },
+  {
+   "pre": "FBbt_00052223",
+   "post": "FBbt_00052032",
+   "weight": 1351
+  },
+  {
+   "pre": "FBbt_00052223",
+   "post": "FBbt_00047511",
+   "weight": 669
+  }
+ ],
+ "behavior": {
+  "text": "Water taste drives gustatory SEZ interneurons (Fudog, Clavicle, Cleaver, Phantom, Usnea, Zorro and others), which converge on SEZ, gnathal and descending pre-motor populations driving ingestion.",
+  "basis": "resolved forward walk: water-GRN instances -> named SEZ interneuron classes (CATMAID FAFB, Engert2022) -> SEZ/gnathal/descending classes (FlyWire v783); water is the canonical thirst-relief modality"
+ },
+ "fly_narration": "Water on the tongue \u2014 drink.",
+ "hop0_ids": [
+  "FBbt_00100042"
+ ],
+ "honest_note": "1 of 23 water skeletons (7724239) persistently truncated server-side; its synapses are missing from the sums. Partner skid 14003783 (uniglomerular olfactory projection neuron, 51 synapses) is a real cross-modal partner below the top-6 cutoff \u2014 noted, not hidden.",
+ "method": {
+  "hop0_class": "FBbt_00100042",
+  "instance_aggregation": {
+   "n_skeletons_queried": 22,
+   "n_skeletons_skipped": 1,
+   "endpoint": "/catmaid/fafb/connectivity (POST, one skid at a time after batched queries truncated)",
+   "partner_mapping": "neuron_names -> VFB search -> FBbt class"
+  }
+ }
+}

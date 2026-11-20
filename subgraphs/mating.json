@@ -1,0 +1,209 @@
+{
+ "stimulus": "mating",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00110621",
+   "name": "adult fruitless P1 (male) neuron",
+   "type": "adult fruitless P1 (male) neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00053229",
+   "name": "adult brain doublesex neuron",
+   "type": "adult brain doublesex neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050245",
+   "name": "adult SMPad1 (male) lineage neuron",
+   "type": "adult SMPad1 (male) lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00110595",
+   "name": "adult fruitless aSP-a (male) neuron",
+   "type": "adult fruitless aSP-a (male) neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050254",
+   "name": "adult DM4 lineage neuron",
+   "type": "adult DM4 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047348",
+   "name": "adult doublesex pC1 (male) neuron",
+   "type": "adult doublesex pC1 (male) neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001987",
+   "name": "abdominal neuron",
+   "type": "abdominal neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00016687",
+   "name": "fruitless expressing neuron",
+   "type": "fruitless expressing neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00051203",
+   "name": "sexually-dimorphic neuron",
+   "type": "sexually-dimorphic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049819",
+   "name": "adult central complex neuron",
+   "type": "adult central complex neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007514",
+   "name": "small field neuron of the central complex",
+   "type": "small field neuron of the central complex",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00003633",
+   "name": "small field neuron",
+   "type": "small field neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00053229",
+   "weight": 17786
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00050245",
+   "weight": 15897
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00110595",
+   "weight": 15897
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00050254",
+   "weight": 11373
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00047348",
+   "weight": 11033
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00047511",
+   "weight": 8215
+  },
+  {
+   "pre": "FBbt_00053229",
+   "post": "FBbt_00059289",
+   "weight": 14258.0
+  },
+  {
+   "pre": "FBbt_00053229",
+   "post": "FBbt_00001987",
+   "weight": 7401.0
+  },
+  {
+   "pre": "FBbt_00053229",
+   "post": "FBbt_00001983",
+   "weight": 6834.0
+  },
+  {
+   "pre": "FBbt_00110595",
+   "post": "FBbt_00016687",
+   "weight": 63139
+  },
+  {
+   "pre": "FBbt_00110595",
+   "post": "FBbt_00051203",
+   "weight": 27927
+  },
+  {
+   "pre": "FBbt_00110595",
+   "post": "FBbt_00049540",
+   "weight": 16373
+  },
+  {
+   "pre": "FBbt_00050254",
+   "post": "FBbt_00049819",
+   "weight": 240126.0
+  },
+  {
+   "pre": "FBbt_00050254",
+   "post": "FBbt_00007514",
+   "weight": 145123.0
+  },
+  {
+   "pre": "FBbt_00050254",
+   "post": "FBbt_00003633",
+   "weight": 145123.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00059289",
+   "weight": 3312838.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00001983",
+   "weight": 2932312.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00047096",
+   "weight": 2203377.0
+  }
+ ],
+ "behavior": {
+  "text": "Male courtship command: the P1 cluster ramps during courtship and drives the courtship ritual \u2014 visual tracking, song production, and copulation attempt \u2014 through fru/dsx integration centers (aSP-a, pC1, SMPad1, DM4) down to descending motor neurons.",
+  "basis": "P1 as the male courtship command cluster is textbook Drosophila (von Philipsborn 2011; Kohatsu 2011); edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "Her \u2014 follow, sing, reach.",
+ "honest_note": "Hop-1 skips two high-weight ontology superclasses ('fruitless expressing neuron' tw=51702, 'sexually-dimorphic neuron' tw=25724) as generic parent buckets, same spirit as the GENERIC blocklist; duplicated ancestor/child tiers are represented by their most specific member. pIP10 (FBbt_00110854) IS a real downstream partner (tw=1444) but ranks below the top-k cutoff \u2014 same pattern as the giant fiber in the looming walk. The doublesex pC1 (male) neuron at hop 1 is the courtship integration center the spec asked about \u2014 it landed cleanly, no extra query needed. CIRCUIT VS DRIVE: every edge here is REAL measured wiring of P1's downstream command chain. The DRIVE DYNAMICS \u2014 how P1 activity ramps, persists, and satiates, and how it arbitrates against hunger/thirst \u2014 are the genuinely unmapped frontier; no API holds them, and nothing here models them.",
+ "hop0_ids": [
+  "FBbt_00110621"
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "stimulus": "fatty acid taste, taste-peg (E409/Ir56d) population \u2014 own-method attack",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783; peg-class walk (named DownstreamClassConnectivity, 100-row cap) + anatomical narrowing. Builder: build_fat_peg.py.",
+ "nodes": [
+  {
+   "id": "FBbt_00048028",
+   "name": "labellar taste peg chemosensory neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "hop": 1,
+   "anterior_candidate": false,
+   "candidate_note": "Shared SEZ convergence node (sweet/water/bitter/DH44/IPC too)."
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "hop": 1,
+   "anterior_candidate": false,
+   "candidate_note": "Shared gnathal terminal class."
+  },
+  {
+   "id": "FBbt_20003871",
+   "name": "adult CB0011 neuron",
+   "hop": 1,
+   "anterior_candidate": true,
+   "candidate_note": "ANTERIOR CANDIDATE: postsynapses in gnathal ganglia and prow (Schlegel et al. 2024 / Dorkenwald et al. 2024).",
+   "constraint_provenance": "LITERATURE-CONSTRAINT",
+   "constraint_citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (taste-peg Ir56d projections target anterior SEZ); prow = anterior SEZ neuropil (standard Drosophila brain nomenclature); arborization from VFB term descriptions (Sterne et al. 2021; Schlegel et al. 2024; Dorkenwald et al. 2024)."
+  },
+  {
+   "id": "FBbt_00051932",
+   "name": "adult rattle subesophageal neuron",
+   "hop": 1,
+   "anterior_candidate": false,
+   "candidate_note": "Sugar-linked: receives sugar-sensing GRN input, drives proboscis extension (Shiu et al. 2022). Gnathal-ganglion arborization."
+  },
+  {
+   "id": "FBbt_20003973",
+   "name": "adult CB0137 neuron",
+   "hop": 1,
+   "anterior_candidate": false,
+   "candidate_note": "Gnathal-ganglia postsynapses (Schlegel et al. 2024)."
+  },
+  {
+   "id": "FBbt_20007145",
+   "name": "adult CB3720 neuron",
+   "hop": 1,
+   "anterior_candidate": true,
+   "candidate_note": "ANTERIOR CANDIDATE: postsynapses in gnathal ganglia and prow (Schlegel et al. 2024).",
+   "constraint_provenance": "LITERATURE-CONSTRAINT",
+   "constraint_citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (taste-peg Ir56d projections target anterior SEZ); prow = anterior SEZ neuropil (standard Drosophila brain nomenclature); arborization from VFB term descriptions (Sterne et al. 2021; Schlegel et al. 2024; Dorkenwald et al. 2024)."
+  },
+  {
+   "id": "FBbt_00051898",
+   "name": "adult hyacinth subesophageal neuron",
+   "hop": 1,
+   "anterior_candidate": true,
+   "candidate_note": "ANTERIOR CANDIDATE (strongest): dendritic+axonal arborization in prow AND flange, bilateral (Sterne et al. 2021). Included 7th: 49 synapses below the top-6 weight cutoff \u2014 documented, not hidden.",
+   "constraint_provenance": "LITERATURE-CONSTRAINT",
+   "constraint_citation": "Tauber et al. 2017, PLOS Genet 13:e1007059 (taste-peg Ir56d projections target anterior SEZ); prow = anterior SEZ neuropil (standard Drosophila brain nomenclature); arborization from VFB term descriptions (Sterne et al. 2021; Schlegel et al. 2024; Dorkenwald et al. 2024)."
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059290",
+   "name": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059291",
+   "name": "secondary neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007696",
+   "name": "chemosensory system neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007695",
+   "name": "gustatory system neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00005922",
+   "name": "chemosensory neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00100671",
+   "name": "TRdm lineage neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00048028",
+   "post": "FBbt_00001972",
+   "weight": 3545,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row (peg-class walk)."
+  },
+  {
+   "pre": "FBbt_00048028",
+   "post": "FBbt_00052032",
+   "weight": 2926,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row (peg-class walk)."
+  },
+  {
+   "pre": "FBbt_00048028",
+   "post": "FBbt_20003871",
+   "weight": 1534,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row (peg-class walk)."
+  },
+  {
+   "pre": "FBbt_00048028",
+   "post": "FBbt_00051932",
+   "weight": 636,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row (peg-class walk)."
+  },
+  {
+   "pre": "FBbt_00048028",
+   "post": "FBbt_20003973",
+   "weight": 616,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row (peg-class walk)."
+  },
+  {
+   "pre": "FBbt_00048028",
+   "post": "FBbt_20007145",
+   "weight": 486,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row (peg-class walk)."
+  },
+  {
+   "pre": "FBbt_00048028",
+   "post": "FBbt_00051898",
+   "weight": 437,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row (peg-class walk)."
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00059289",
+   "weight": 960507,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00059290",
+   "weight": 846534,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00059291",
+   "weight": 668777,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00059289",
+   "weight": 959022,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00059290",
+   "weight": 845190,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00059291",
+   "weight": 632276,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20003871",
+   "post": "FBbt_00007696",
+   "weight": 2277,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20003871",
+   "post": "FBbt_00007695",
+   "weight": 2189,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20003871",
+   "post": "FBbt_00005922",
+   "weight": 2168,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00051932",
+   "post": "FBbt_00001972",
+   "weight": 4496,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00051932",
+   "post": "FBbt_00052032",
+   "weight": 4496,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00051932",
+   "post": "FBbt_00047511",
+   "weight": 2043,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20003973",
+   "post": "FBbt_00001972",
+   "weight": 1884,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20003973",
+   "post": "FBbt_00052032",
+   "weight": 1864,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20003973",
+   "post": "FBbt_00047511",
+   "weight": 1220,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20007145",
+   "post": "FBbt_00100671",
+   "weight": 339,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20007145",
+   "post": "FBbt_00001972",
+   "weight": 279,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_20007145",
+   "post": "FBbt_00052032",
+   "weight": 258,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00051898",
+   "post": "FBbt_00001972",
+   "weight": 2567,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  },
+  {
+   "pre": "FBbt_00051898",
+   "post": "FBbt_00100671",
+   "weight": 1881,
+   "provenance": "REAL",
+   "note": "FlyWire v783 class-level row."
+  }
+ ],
+ "honest_note": "PROVENANCE SPLIT \u2014 read before using. Hop 0->1 and hop 1->2 edges are REAL FlyWire v783 API rows from the general taste-peg GRN class walk (FBbt_00048028; Ir56d-peg E409 neurons are an unmarked SUBSET of this class). The 'anterior_candidate' flags on CB0011 / CB3720 / hyacinth are a LITERATURE-CONSTRAINT (Tauber 2017: peg->anterior SEZ; prow arborization per VFB term descriptions) \u2014 a constrained candidate pool, NOT measured Ir56d-peg wiring. Ir56d-peg-subset attribution is UNRESOLVABLE: no API marker distinguishes Ir56d peg GRNs from other peg GRNs. Sweet second-order set (zorro/clavicle/FMIn/fuchs/G2N-1/billiards) does NOT appear in the peg top-k \u2014 the peg pool is a different interneuron set \u2014 BUT rattle receives sugar-GRN input (Shiu et al. 2022), and both pools converge on SEZ neuron FBbt_00001972 -> identical motor populations (VNC/thoracic/secondary). CB0011 hop-2 is bucket-heavy (system-level classes passed the GENERIC blocklist; documented, same treatment as bitter). Hyacinth API returned FBbt_00001972 twice (tw 2567/1775); deduped to max.",
+ "behavior": "Taste-peg GRNs (including the Ir56d/E409 fat-taste subset) drive SEZ interneurons converging on the shared SEZ->motor pathway; the anterior (prow) subset is the Ir56d-peg candidate pool."
+}

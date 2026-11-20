@@ -1,0 +1,440 @@
+{
+ "stimulus": "salt",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated named DownstreamClassConnectivity queries (grouped ID/label forms returned 0 rows for both salt classes); edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00100043",
+   "name": "low salt-sensing neuron of labellar taste bristle",
+   "type": "low salt-sensing neuron of labellar taste bristle",
+   "hop": 0,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00052561",
+   "name": "cation-sensing gustatory receptor neuron of labellum (high salt-sensing neuron of labellar taste bristle)",
+   "type": "cation-sensing gustatory receptor neuron of labellum (high salt-sensing neuron of labellar taste bristle)",
+   "hop": 0,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00049858",
+   "name": "adult subesophageal zone output neuron",
+   "type": "adult subesophageal zone output neuron",
+   "hop": 1,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00047948",
+   "name": "adult gustatory projection neuron",
+   "type": "adult gustatory projection neuron",
+   "hop": 1,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "type": "subesophageal zone neuron",
+   "hop": 1,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_20002628",
+   "name": "adult superior lateral protocerebrum gustatory projection neuron 1",
+   "type": "adult superior lateral protocerebrum gustatory projection neuron 1",
+   "hop": 1,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "type": "gnathal ganglion neuron",
+   "hop": 1,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_20008184",
+   "name": "adult ANXXX433 neuron",
+   "type": "adult ANXXX433 neuron",
+   "hop": 1,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00048301",
+   "name": "adult ascending neuron",
+   "type": "adult ascending neuron",
+   "hop": 1,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00001984",
+   "name": "prothoracic neuron",
+   "type": "prothoracic neuron",
+   "hop": 1,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00051956",
+   "name": "adult usnea subesophageal neuron",
+   "type": "adult usnea subesophageal neuron",
+   "hop": 1,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_20007474",
+   "name": "descending neuron of the gnathal ganglion DNg103",
+   "type": "descending neuron of the gnathal ganglion DNg103",
+   "hop": 1,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00059247",
+   "name": "adult visual neuropil intrinsic neuron",
+   "type": "adult visual neuropil intrinsic neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00110137",
+   "name": "optic lobe wide-field columnar neuron",
+   "type": "optic lobe wide-field columnar neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00053385",
+   "name": "medulla intrinsic neuron",
+   "type": "medulla intrinsic neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00050269",
+   "name": "adult SLPal2 lineage neuron",
+   "type": "adult SLPal2 lineage neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00100691",
+   "name": "DPLal3 lineage neuron",
+   "type": "DPLal3 lineage neuron",
+   "hop": 2,
+   "chain": "low"
+  },
+  {
+   "id": "FBbt_00007696",
+   "name": "chemosensory system neuron",
+   "type": "chemosensory system neuron",
+   "hop": 2,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00005922",
+   "name": "chemosensory neuron",
+   "type": "chemosensory neuron",
+   "hop": 2,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00007695",
+   "name": "gustatory system neuron",
+   "type": "gustatory system neuron",
+   "hop": 2,
+   "chain": "high"
+  },
+  {
+   "id": "FBbt_00005927",
+   "name": "gustatory receptor neuron",
+   "type": "gustatory receptor neuron",
+   "hop": 2,
+   "chain": "high"
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00100043",
+   "post": "FBbt_00049858",
+   "weight": 132,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00100043",
+   "post": "FBbt_00047948",
+   "weight": 126,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00100043",
+   "post": "FBbt_00001972",
+   "weight": 100,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00100043",
+   "post": "FBbt_20002628",
+   "weight": 52,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00100043",
+   "post": "FBbt_00052032",
+   "weight": 29,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00052561",
+   "post": "FBbt_20008184",
+   "weight": 93,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00052561",
+   "post": "FBbt_00048301",
+   "weight": 93,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00052561",
+   "post": "FBbt_00001984",
+   "weight": 93,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00052561",
+   "post": "FBbt_00051956",
+   "weight": 17,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00052561",
+   "post": "FBbt_20007474",
+   "weight": 15,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00049858",
+   "post": "FBbt_00059247",
+   "weight": 710394.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00049858",
+   "post": "FBbt_00110137",
+   "weight": 270312.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00049858",
+   "post": "FBbt_00053385",
+   "weight": 263236.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00047948",
+   "post": "FBbt_00059289",
+   "weight": 21669.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00047948",
+   "post": "FBbt_00049540",
+   "weight": 16902.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00047948",
+   "post": "FBbt_00048301",
+   "weight": 16119.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00059289",
+   "weight": 960507.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00001983",
+   "weight": 846534.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00047096",
+   "weight": 668777.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_20002628",
+   "post": "FBbt_00048293",
+   "weight": 1307,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_20002628",
+   "post": "FBbt_00050269",
+   "weight": 579,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_20002628",
+   "post": "FBbt_00100691",
+   "weight": 579,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00059289",
+   "weight": 959022.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00001983",
+   "weight": 845190.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00047096",
+   "weight": 632276.0,
+   "chain": "low"
+  },
+  {
+   "pre": "FBbt_20008184",
+   "post": "FBbt_00048301",
+   "weight": 768,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_20008184",
+   "post": "FBbt_00007696",
+   "weight": 618,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_20008184",
+   "post": "FBbt_00005922",
+   "weight": 618,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00059289",
+   "weight": 3561911.0,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00001983",
+   "weight": 3122257.0,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00047096",
+   "weight": 2472391.0,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00001984",
+   "post": "FBbt_00059289",
+   "weight": 5948029.0,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00001984",
+   "post": "FBbt_00001983",
+   "weight": 5704645.0,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00001984",
+   "post": "FBbt_00047096",
+   "weight": 4051671.0,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00051956",
+   "post": "FBbt_00007695",
+   "weight": 4230,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00051956",
+   "post": "FBbt_00007696",
+   "weight": 4230,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_00051956",
+   "post": "FBbt_00005927",
+   "weight": 3772,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_20007474",
+   "post": "FBbt_00007696",
+   "weight": 10480,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_20007474",
+   "post": "FBbt_00005922",
+   "weight": 10278,
+   "chain": "high"
+  },
+  {
+   "pre": "FBbt_20007474",
+   "post": "FBbt_00007695",
+   "weight": 7497,
+   "chain": "high"
+  }
+ ],
+ "behavior": {
+  "text": "Salt taste is an opponent system. LOW salt is attractive: L1 GRNs feed SEZ and gustatory projection neurons (SLP GPN1), the feeding/approach pathway. HIGH salt is aversive: type-D GRNs feed VNC/ascending/prothoracic motor populations and gnathal descending neurons, the withdrawal pathway.",
+  "basis": "Low-salt attraction via L1 GRNs and high-salt aversion via type-D GRNs are textbook Drosophila (e.g. Zhang et al 2013, McDowell et al); edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "A pinch of salt: come closer. A handful: pull away.",
+ "honest_note": "Two opponent chains in one graph (chain field on nodes/edges). LOW chain (FBbt_00100043): real named-query rows, standard top-k walk; hop-1 takes 5 specific classes (the 6th slot had no specific candidate \u2014 broad buckets only). HIGH chain (FBbt_00052561): every direct query form dead (grouped ID 0 rows, grouped label 0 rows, named 0 rows), 0 instances to attack, sibling DL class also 0 rows everywhere. Its hop-1 is derived by SUBTRACTION: parent class FBbt_00049615 (salt-sensing neuron, 50 real named rows) minus the resolved low-salt child's rows; the remainder (VNC/ascending/prothoracic tw=93 tier, usnea tw=17, DNg103 tw=15) is the high-salt siblings' signal. Tiers collapsed to most specific member (mating-walk precedent). All underlying rows are real API rows; the attribution to high-salt is the documented method, not a measured label. Hop-2 uses the standard top-3 heuristic with larval exclusion; nodes with no specific downstream are logged as GAPs, not faked.",
+ "hop0_ids": [
+  "FBbt_00100043",
+  "FBbt_00052561"
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "stimulus": "temperature",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome. Hop 0->1: named DownstreamClassConnectivity rows for FBbt_00111336 (adult thermosensory neuron Ir21a VP1l); hop 1->2: class-aggregated /query_connectivity. Edge weight = total synapse count.",
+ "nodes": [
+  {
+   "id": "FBbt_00111336",
+   "name": "adult thermosensory neuron Ir21a VP1l",
+   "type": "adult thermosensory neuron Ir21a VP1l",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00007422",
+   "name": "antennal lobe projection neuron",
+   "type": "antennal lobe projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00067123",
+   "name": "adult antennal lobe projection neuron",
+   "type": "adult antennal lobe projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007384",
+   "name": "multiglomerular antennal lobe projection neuron",
+   "type": "multiglomerular antennal lobe projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049286",
+   "name": "adult lateral horn output neuron",
+   "type": "adult lateral horn output neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059245",
+   "name": "adult central brain intrinsic neuron",
+   "type": "adult central brain intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007441",
+   "name": "adult multiglomerular antennal lobe projection neuron",
+   "type": "adult multiglomerular antennal lobe projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100227",
+   "name": "mushroom body extrinsic neuron",
+   "type": "mushroom body extrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007368",
+   "name": "aminergic neuron",
+   "type": "aminergic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00058201",
+   "name": "adult aminergic neuron",
+   "type": "adult aminergic neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00111336",
+   "post": "FBbt_00007422",
+   "weight": 7680.0
+  },
+  {
+   "pre": "FBbt_00111336",
+   "post": "FBbt_00067123",
+   "weight": 7680.0
+  },
+  {
+   "pre": "FBbt_00111336",
+   "post": "FBbt_00007384",
+   "weight": 5535.0
+  },
+  {
+   "pre": "FBbt_00007384",
+   "post": "FBbt_00048293",
+   "weight": 233914.0
+  },
+  {
+   "pre": "FBbt_00007384",
+   "post": "FBbt_00049286",
+   "weight": 120238.0
+  },
+  {
+   "pre": "FBbt_00007384",
+   "post": "FBbt_00059245",
+   "weight": 116252.0
+  },
+  {
+   "pre": "FBbt_00111336",
+   "post": "FBbt_00007441",
+   "weight": 5535.0
+  },
+  {
+   "pre": "FBbt_00007441",
+   "post": "FBbt_00048293",
+   "weight": 233914.0
+  },
+  {
+   "pre": "FBbt_00007441",
+   "post": "FBbt_00049286",
+   "weight": 120238.0
+  },
+  {
+   "pre": "FBbt_00007441",
+   "post": "FBbt_00059245",
+   "weight": 116252.0
+  },
+  {
+   "pre": "FBbt_00111336",
+   "post": "FBbt_00100227",
+   "weight": 5342.0
+  },
+  {
+   "pre": "FBbt_00100227",
+   "post": "FBbt_00059245",
+   "weight": 1257578.0
+  },
+  {
+   "pre": "FBbt_00100227",
+   "post": "FBbt_00007368",
+   "weight": 857054.0
+  },
+  {
+   "pre": "FBbt_00100227",
+   "post": "FBbt_00058201",
+   "weight": 856598.0
+  }
+ ],
+ "behavior": {
+  "text": "Thermal sensing: aristal/antennal thermosensory neurons (Ir21a cold cells) drive downstream circuits for thermal preference and avoidance; the fly moves toward preferred temperature.",
+  "basis": "textbook Drosophila thermosensation (aristal hot/cold neurons -> posterior antennal lobe); stated as known biology, resolved circuit below shows how far the API could trace it"
+ },
+ "fly_narration": "Cold on the arista \u2014 shift.",
+ "hop0_ids": [
+  "FBbt_00111336"
+ ]
+}

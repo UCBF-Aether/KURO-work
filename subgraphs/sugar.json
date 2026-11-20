@@ -1,0 +1,21 @@
+{
+ "stimulus": "sugar",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00049614",
+   "name": "sweet-sensing gustatory receptor neuron",
+   "type": "sweet-sensing gustatory receptor neuron",
+   "hop": 0
+  }
+ ],
+ "edges": [],
+ "behavior": {
+  "text": "Proboscis extension response: the fly extends its proboscis toward the sweet stimulus to feed.",
+  "basis": "textbook Drosophila PER (sweet GRNs -> SEZ -> proboscis motor neurons); stated as known biology, resolved circuit below shows how far the API could trace it"
+ },
+ "fly_narration": "Sweet on the tongue \u2014 reach out.",
+ "hop0_ids": [
+  "FBbt_00049614"
+ ]
+}

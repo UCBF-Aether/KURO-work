@@ -1,0 +1,220 @@
+{
+ "stimulus": "looming",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00111763",
+   "name": "lobula plate-lobula columnar neuron LPLC2",
+   "type": "lobula plate-lobula columnar neuron LPLC2",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050108",
+   "name": "adult VPNd1 lineage neuron",
+   "type": "adult VPNd1 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049154",
+   "name": "BLD6 lineage neuron",
+   "type": "BLD6 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00110137",
+   "name": "optic lobe wide-field columnar neuron",
+   "type": "optic lobe wide-field columnar neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047517",
+   "name": "descending neuron of the posterior brain",
+   "type": "descending neuron of the posterior brain",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_20002069",
+   "name": "adult posterior ventrolateral protocerebrum neuron 011",
+   "type": "adult posterior ventrolateral protocerebrum neuron 011",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059247",
+   "name": "adult visual neuropil intrinsic neuron",
+   "type": "adult visual neuropil intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00110136",
+   "name": "optic lobe narrow field columnar neuron",
+   "type": "optic lobe narrow field columnar neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00111752",
+   "name": "lobula columnar neuron LC17",
+   "type": "lobula columnar neuron LC17",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00110403",
+   "name": "adult VPNv1 lineage neuron",
+   "type": "adult VPNv1 lineage neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00111763",
+   "post": "FBbt_00047511",
+   "weight": 30104
+  },
+  {
+   "pre": "FBbt_00111763",
+   "post": "FBbt_00050108",
+   "weight": 29846
+  },
+  {
+   "pre": "FBbt_00111763",
+   "post": "FBbt_00049154",
+   "weight": 29846
+  },
+  {
+   "pre": "FBbt_00111763",
+   "post": "FBbt_00110137",
+   "weight": 28066
+  },
+  {
+   "pre": "FBbt_00111763",
+   "post": "FBbt_00047517",
+   "weight": 23414
+  },
+  {
+   "pre": "FBbt_00111763",
+   "post": "FBbt_20002069",
+   "weight": 20449
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00059289",
+   "weight": 3312838.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00001983",
+   "weight": 2932312.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00047096",
+   "weight": 2203377.0
+  },
+  {
+   "pre": "FBbt_00050108",
+   "post": "FBbt_00047511",
+   "weight": 41654.0
+  },
+  {
+   "pre": "FBbt_00050108",
+   "post": "FBbt_00110137",
+   "weight": 24410.0
+  },
+  {
+   "pre": "FBbt_00050108",
+   "post": "FBbt_00047517",
+   "weight": 24351.0
+  },
+  {
+   "pre": "FBbt_00049154",
+   "post": "FBbt_00047511",
+   "weight": 41654.0
+  },
+  {
+   "pre": "FBbt_00049154",
+   "post": "FBbt_00110137",
+   "weight": 24410.0
+  },
+  {
+   "pre": "FBbt_00049154",
+   "post": "FBbt_00047517",
+   "weight": 24351.0
+  },
+  {
+   "pre": "FBbt_00110137",
+   "post": "FBbt_00059247",
+   "weight": 7002402.0
+  },
+  {
+   "pre": "FBbt_00110137",
+   "post": "FBbt_00047096",
+   "weight": 2933304.0
+  },
+  {
+   "pre": "FBbt_00110137",
+   "post": "FBbt_00110136",
+   "weight": 2346697.0
+  },
+  {
+   "pre": "FBbt_00047517",
+   "post": "FBbt_00059289",
+   "weight": 590644.0
+  },
+  {
+   "pre": "FBbt_00047517",
+   "post": "FBbt_00001983",
+   "weight": 515528.0
+  },
+  {
+   "pre": "FBbt_00047517",
+   "post": "FBbt_00047096",
+   "weight": 404728.0
+  },
+  {
+   "pre": "FBbt_20002069",
+   "post": "FBbt_00110137",
+   "weight": 52970.0
+  },
+  {
+   "pre": "FBbt_20002069",
+   "post": "FBbt_00111752",
+   "weight": 29703.0
+  },
+  {
+   "pre": "FBbt_20002069",
+   "post": "FBbt_00110403",
+   "weight": 19465.0
+  }
+ ],
+ "behavior": {
+  "text": "Escape: visual looming drives the giant-fiber system and descending neurons, triggering jump-and-flight takeoff.",
+  "basis": "textbook Drosophila escape circuit (LPLC2/LC4 -> giant fiber -> jump/flight motor neurons)"
+ },
+ "fly_narration": "Shadow swelling \u2014 MOVE.",
+ "hop0_ids": [
+  "FBbt_00111763"
+ ]
+}

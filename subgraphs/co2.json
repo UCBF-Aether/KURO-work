@@ -1,0 +1,227 @@
+{
+ "stimulus": "co2",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity (label form \u2014 the ID form died server-side), edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00067064",
+   "name": "adult olfactory receptor neuron Gr21a/63a",
+   "type": "adult olfactory receptor neuron Gr21a/63a",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00053398",
+   "name": "adult antennal lobe projection neuron to lateral horn",
+   "type": "adult antennal lobe projection neuron to lateral horn",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100660",
+   "name": "BAlc lineage neuron",
+   "type": "BAlc lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007390",
+   "name": "adult antennal lobe local neuron",
+   "type": "adult antennal lobe local neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059245",
+   "name": "adult central brain intrinsic neuron",
+   "type": "adult central brain intrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049912",
+   "name": "BAlc Notch ON hemilineage neuron",
+   "type": "BAlc Notch ON hemilineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051501",
+   "name": "adult antennal lobe local neuron l2LN",
+   "type": "adult antennal lobe local neuron l2LN",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007484",
+   "name": "mushroom body intrinsic neuron",
+   "type": "mushroom body intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00050025",
+   "name": "adult ALl1 lineage neuron",
+   "type": "adult ALl1 lineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00051493",
+   "name": "local neuron",
+   "type": "local neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007368",
+   "name": "aminergic neuron",
+   "type": "aminergic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00058201",
+   "name": "adult aminergic neuron",
+   "type": "adult aminergic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049819",
+   "name": "adult central complex neuron",
+   "type": "adult central complex neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00067064",
+   "post": "FBbt_00053398",
+   "weight": 15822
+  },
+  {
+   "pre": "FBbt_00067064",
+   "post": "FBbt_00100660",
+   "weight": 15248
+  },
+  {
+   "pre": "FBbt_00067064",
+   "post": "FBbt_00007390",
+   "weight": 13155
+  },
+  {
+   "pre": "FBbt_00067064",
+   "post": "FBbt_00059245",
+   "weight": 13155
+  },
+  {
+   "pre": "FBbt_00067064",
+   "post": "FBbt_00049912",
+   "weight": 12220
+  },
+  {
+   "pre": "FBbt_00067064",
+   "post": "FBbt_00051501",
+   "weight": 11032
+  },
+  {
+   "pre": "FBbt_00053398",
+   "post": "FBbt_00059245",
+   "weight": 1133359.0
+  },
+  {
+   "pre": "FBbt_00053398",
+   "post": "FBbt_00048293",
+   "weight": 746058.0
+  },
+  {
+   "pre": "FBbt_00053398",
+   "post": "FBbt_00007484",
+   "weight": 674261.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00059245",
+   "weight": 933293.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00050025",
+   "weight": 812936.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00051493",
+   "weight": 801321.0
+  },
+  {
+   "pre": "FBbt_00007390",
+   "post": "FBbt_00050025",
+   "weight": 772079.0
+  },
+  {
+   "pre": "FBbt_00007390",
+   "post": "FBbt_00100660",
+   "weight": 772079.0
+  },
+  {
+   "pre": "FBbt_00007390",
+   "post": "FBbt_00049540",
+   "weight": 740421.0
+  },
+  {
+   "pre": "FBbt_00059245",
+   "post": "FBbt_00007368",
+   "weight": 1704451.0
+  },
+  {
+   "pre": "FBbt_00059245",
+   "post": "FBbt_00058201",
+   "weight": 1704451.0
+  },
+  {
+   "pre": "FBbt_00059245",
+   "post": "FBbt_00049819",
+   "weight": 1398052.0
+  },
+  {
+   "pre": "FBbt_00049912",
+   "post": "FBbt_00050025",
+   "weight": 481664.0
+  },
+  {
+   "pre": "FBbt_00049912",
+   "post": "FBbt_00100660",
+   "weight": 481664.0
+  },
+  {
+   "pre": "FBbt_00049912",
+   "post": "FBbt_00049540",
+   "weight": 467638.0
+  },
+  {
+   "pre": "FBbt_00051501",
+   "post": "FBbt_00050025",
+   "weight": 875173
+  },
+  {
+   "pre": "FBbt_00051501",
+   "post": "FBbt_00100660",
+   "weight": 875173
+  },
+  {
+   "pre": "FBbt_00051501",
+   "post": "FBbt_00049540",
+   "weight": 855884
+  }
+ ],
+ "behavior": {
+  "text": "CO2 alarm: the dedicated danger smell. Gr21a/Gr63a ab1C neurons detect carbon dioxide and drive aversion through antennal lobe projection neurons to the lateral horn \u2014 the innate-aversion center \u2014 in parallel with local inhibitory shaping.",
+  "basis": "Gr21a/Gr63a as the CO2 receptor complex in ab1C neurons is textbook Drosophila (Suh et al 2004); edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "Bad air \u2014 leave.",
+ "honest_note": "Hop-1 collapses duplicated ontology tiers of identical synapse sets to their most specific member (mating-walk precedent; full mapping in build_co2.py docstring). The grouped /query_connectivity via the FBbt ID died server-side; the label form returned 126 real rows. Hop-2 walks use the standard top-3 heuristic with larval exclusion; hop-2 nodes that return no specific downstream are logged as GAPs, not faked. Sibling circuit: rotten.json (Or56a aversion) shares the AL->lateral-horn architecture but different glomerular origin.",
+ "hop0_ids": [
+  "FBbt_00067064"
+ ]
+}

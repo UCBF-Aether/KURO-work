@@ -1,0 +1,165 @@
+{
+ "stimulus": "sleep",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00049537",
+   "name": "adult dorsal fan-shaped body tangential neuron",
+   "type": "adult dorsal fan-shaped body tangential neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00007514",
+   "name": "small field neuron of the central complex",
+   "type": "small field neuron of the central complex",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049820",
+   "name": "fan-shaped body columnar neuron",
+   "type": "fan-shaped body columnar neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00003636",
+   "name": "adult fan-shaped body delta neuron",
+   "type": "adult fan-shaped body delta neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007523",
+   "name": "adult fan-shaped body horizontal delta neuron",
+   "type": "adult fan-shaped body horizontal delta neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049822",
+   "name": "fan-shaped body extrinsic columnar neuron",
+   "type": "fan-shaped body extrinsic columnar neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007536",
+   "name": "adult fan-shaped body layer 6 tangential neuron",
+   "type": "adult fan-shaped body layer 6 tangential neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049819",
+   "name": "adult central complex neuron",
+   "type": "adult central complex neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00049537",
+   "post": "FBbt_00007514",
+   "weight": 307745
+  },
+  {
+   "pre": "FBbt_00049537",
+   "post": "FBbt_00049820",
+   "weight": 307486
+  },
+  {
+   "pre": "FBbt_00049537",
+   "post": "FBbt_00003636",
+   "weight": 217252
+  },
+  {
+   "pre": "FBbt_00049537",
+   "post": "FBbt_00007523",
+   "weight": 176242
+  },
+  {
+   "pre": "FBbt_00049537",
+   "post": "FBbt_00049822",
+   "weight": 90232
+  },
+  {
+   "pre": "FBbt_00049537",
+   "post": "FBbt_00007536",
+   "weight": 70267
+  },
+  {
+   "pre": "FBbt_00007514",
+   "post": "FBbt_00049819",
+   "weight": 1788478.0
+  },
+  {
+   "pre": "FBbt_00007514",
+   "post": "FBbt_00007514",
+   "weight": 1115507.0
+  },
+  {
+   "pre": "FBbt_00007514",
+   "post": "FBbt_00049820",
+   "weight": 934751.0
+  },
+  {
+   "pre": "FBbt_00049820",
+   "post": "FBbt_00049819",
+   "weight": 1393533.0
+  },
+  {
+   "pre": "FBbt_00049820",
+   "post": "FBbt_00007514",
+   "weight": 907086.0
+  },
+  {
+   "pre": "FBbt_00003636",
+   "post": "FBbt_00049819",
+   "weight": 731196.0
+  },
+  {
+   "pre": "FBbt_00003636",
+   "post": "FBbt_00007514",
+   "weight": 459530.0
+  },
+  {
+   "pre": "FBbt_00007523",
+   "post": "FBbt_00049819",
+   "weight": 514079.0
+  },
+  {
+   "pre": "FBbt_00007523",
+   "post": "FBbt_00007514",
+   "weight": 328166.0
+  },
+  {
+   "pre": "FBbt_00049822",
+   "post": "FBbt_00049819",
+   "weight": 647423.0
+  },
+  {
+   "pre": "FBbt_00049822",
+   "post": "FBbt_00049820",
+   "weight": 444850.0
+  },
+  {
+   "pre": "FBbt_00049822",
+   "post": "FBbt_00007514",
+   "weight": 440666.0
+  },
+  {
+   "pre": "FBbt_00007536",
+   "post": "FBbt_00049819",
+   "weight": 267794.0
+  },
+  {
+   "pre": "FBbt_00007536",
+   "post": "FBbt_00007514",
+   "weight": 177093.0
+  }
+ ],
+ "behavior": {
+  "text": "Sleep homeostasis: the dorsal fan-shaped body (dFB) neurons accumulate sleep pressure during wakefulness and discharge it during sleep, gating arousal through fan-shaped body columnar, delta, and extrinsic output circuits of the central complex.",
+  "basis": "dFB as the sleep homeostat is textbook Drosophila (Donlea et al 2011; Ueno et al 2012); edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "Heavy \u2014 let go, drift down.",
+ "honest_note": "Hop-0 grouped /query_connectivity died server-side (IncompleteRead, ~1.4MB truncated); hop-1 weights come from the named DownstreamClassConnectivity query (50 rows). Hop-1 skips ontology parents, transmitter buckets, and self as documented in the builder docstring; duplicated tiers represented by most specific member. One hop-2 pick ('small field neuron' FBbt_00003633) was the ontology parent of the hop-1 node 'small field neuron of the central complex' \u2014 its edges were redirected to the specific child rather than adding the parent as a node. The other hop-2 node ('adult central complex neuron' FBbt_00049819) is a broad parent bucket kept as the top non-duplicate candidate \u2014 real edges, broad label. CIRCUIT VS HOMEOSTAT: every edge here is REAL measured wiring of dFB's downstream command chain within the central complex. The HOMEOSTAT DYNAMICS \u2014 pressure accumulation rate, discharge kinetics, arousal gating \u2014 are the genuinely unmapped frontier; no API holds them, and nothing here models them.",
+ "hop0_ids": [
+  "FBbt_00049537"
+ ]
+}

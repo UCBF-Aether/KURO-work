@@ -1,0 +1,152 @@
+{
+ "stimulus": "leg proprioception (femoral chordotonal organ \u2014 femur-tibia joint angle and movement)",
+ "source": "Virtual Fly Brain VFBquery HTTP API, FlyWire v783. Hop 0->1: named DownstreamClassConnectivity (grouped query truncates server-side for this broad class). Hop 1->2: fetch_rows fallback chain (grouped -> named).",
+ "nodes": [
+  {
+   "id": "FBbt_00048051",
+   "name": "mechanosensory neuron of femoral chordotonal organ",
+   "type": "mechanosensory neuron of femoral chordotonal organ",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00001986",
+   "name": "metathoracic neuron",
+   "type": "metathoracic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001985",
+   "name": "mesothoracic neuron",
+   "type": "mesothoracic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00048301",
+   "name": "adult ascending neuron",
+   "type": "adult ascending neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001984",
+   "name": "prothoracic neuron",
+   "type": "prothoracic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052749",
+   "name": "unpaired neuron",
+   "type": "unpaired neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001987",
+   "name": "abdominal neuron",
+   "type": "abdominal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051963",
+   "name": "efferent neuron",
+   "type": "efferent neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00048051",
+   "post": "FBbt_00001986",
+   "weight": 81476.0
+  },
+  {
+   "pre": "FBbt_00048051",
+   "post": "FBbt_00001985",
+   "weight": 75066.0
+  },
+  {
+   "pre": "FBbt_00048051",
+   "post": "FBbt_00048301",
+   "weight": 52445.0
+  },
+  {
+   "pre": "FBbt_00048051",
+   "post": "FBbt_00001984",
+   "weight": 35516.0
+  },
+  {
+   "pre": "FBbt_00048051",
+   "post": "FBbt_00052749",
+   "weight": 23788.0
+  },
+  {
+   "pre": "FBbt_00048051",
+   "post": "FBbt_00001987",
+   "weight": 20708.0
+  },
+  {
+   "pre": "FBbt_00001986",
+   "post": "FBbt_00001985",
+   "weight": 869688.0
+  },
+  {
+   "pre": "FBbt_00001986",
+   "post": "FBbt_00048301",
+   "weight": 686829.0
+  },
+  {
+   "pre": "FBbt_00001986",
+   "post": "FBbt_00051963",
+   "weight": 641874.0
+  },
+  {
+   "pre": "FBbt_00001985",
+   "post": "FBbt_00048301",
+   "weight": 1020271.0
+  },
+  {
+   "pre": "FBbt_00001985",
+   "post": "FBbt_00001984",
+   "weight": 940265.0
+  },
+  {
+   "pre": "FBbt_00001985",
+   "post": "FBbt_00051963",
+   "weight": 905738.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00001984",
+   "weight": 1294115.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00001985",
+   "weight": 1191139.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00001986",
+   "weight": 636220.0
+  },
+  {
+   "pre": "FBbt_00001984",
+   "post": "FBbt_00001985",
+   "weight": 1160457.0
+  },
+  {
+   "pre": "FBbt_00001984",
+   "post": "FBbt_00048301",
+   "weight": 1015128.0
+  },
+  {
+   "pre": "FBbt_00001984",
+   "post": "FBbt_00051963",
+   "weight": 578089.0
+  }
+ ],
+ "behavior": {
+  "text": "Proprioceptive feedback: FeCO club/claw/hook neurons encode femur-tibia joint angle, movement direction and vibration; they terminate in the thoracic VNC ganglia and ascend to the brain. Known biology (textbook).",
+  "basis": "Mamiya et al. FeCO functional types (club=position, claw=movement direction, hook=vibration); stated as known biology, NOT as a simulation result."
+ },
+ "fly_narration": "The leg knows where it is.",
+ "honest_note": "REAL measured FlyWire v783 rows throughout. Hop-1 skips ontology parents, transmitter buckets, and Notch hemilineage developmental buckets (documented heuristic). Dead avenues: FBbt_00048275 (club ascending neuron) 0 rows all forms; upstream of adult proprioceptive projection neuron FBbt_00052033 0 rows; per-pair FeCO->FBbt_00052033 0 pairs (the second-order proprioceptive neuron is not a direct FeCO target in the index). The functional club/claw/hook subtypes (Mamiya et al.) are not separately indexed as connectivity classes \u2014 this walk is at the whole-FeCO level."
+}

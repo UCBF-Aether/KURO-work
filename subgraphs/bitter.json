@@ -1,0 +1,225 @@
+{
+ "stimulus": "bitter",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count. The bitter-sensing GRN class (unlike sweet/water) has indexed class-level downstream connectivity, so this walk used it directly.",
+ "nodes": [
+  {
+   "id": "FBbt_00049613",
+   "name": "bitter-sensing gustatory receptor neuron",
+   "type": "bitter-sensing gustatory receptor neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_20003990",
+   "name": "adult CB0159 neuron",
+   "type": "adult CB0159 neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "type": "subesophageal zone neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "type": "gnathal ganglion neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051914",
+   "name": "adult mime subesophageal neuron",
+   "type": "adult mime subesophageal neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00048301",
+   "name": "adult ascending neuron",
+   "type": "adult ascending neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007696",
+   "name": "chemosensory system neuron",
+   "type": "chemosensory system neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00005922",
+   "name": "chemosensory neuron",
+   "type": "chemosensory neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007695",
+   "name": "gustatory system neuron",
+   "type": "gustatory system neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00100671",
+   "name": "TRdm lineage neuron",
+   "type": "TRdm lineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00049613",
+   "post": "FBbt_20003990",
+   "weight": 1890
+  },
+  {
+   "pre": "FBbt_00049613",
+   "post": "FBbt_00001972",
+   "weight": 1414
+  },
+  {
+   "pre": "FBbt_00049613",
+   "post": "FBbt_00052032",
+   "weight": 1283
+  },
+  {
+   "pre": "FBbt_00049613",
+   "post": "FBbt_00051914",
+   "weight": 1030
+  },
+  {
+   "pre": "FBbt_00049613",
+   "post": "FBbt_00048301",
+   "weight": 846
+  },
+  {
+   "pre": "FBbt_00049613",
+   "post": "FBbt_00059289",
+   "weight": 790
+  },
+  {
+   "pre": "FBbt_20003990",
+   "post": "FBbt_00007696",
+   "weight": 9647
+  },
+  {
+   "pre": "FBbt_20003990",
+   "post": "FBbt_00005922",
+   "weight": 9642
+  },
+  {
+   "pre": "FBbt_20003990",
+   "post": "FBbt_00007695",
+   "weight": 9632
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00059289",
+   "weight": 960507.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00001983",
+   "weight": 846534.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00047096",
+   "weight": 668777.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00059289",
+   "weight": 959022.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00001983",
+   "weight": 845190.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00047096",
+   "weight": 632276.0
+  },
+  {
+   "pre": "FBbt_00051914",
+   "post": "FBbt_00001972",
+   "weight": 513.0
+  },
+  {
+   "pre": "FBbt_00051914",
+   "post": "FBbt_00052032",
+   "weight": 485.0
+  },
+  {
+   "pre": "FBbt_00051914",
+   "post": "FBbt_00100671",
+   "weight": 422.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00059289",
+   "weight": 3561911.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00001983",
+   "weight": 3122257.0
+  },
+  {
+   "pre": "FBbt_00048301",
+   "post": "FBbt_00047096",
+   "weight": 2472391.0
+  },
+  {
+   "pre": "FBbt_00059289",
+   "post": "FBbt_00001983",
+   "weight": 19030489.0
+  },
+  {
+   "pre": "FBbt_00059289",
+   "post": "FBbt_00047096",
+   "weight": 13835516.0
+  },
+  {
+   "pre": "FBbt_00059289",
+   "post": "FBbt_00049540",
+   "weight": 10163863.0
+  }
+ ],
+ "behavior": {
+  "text": "Bitter taste drives aversive gustatory SEZ interneurons, suppressing feeding and triggering rejection/avoidance.",
+  "basis": "resolved class-level walk: bitter-sensing GRNs -> SEZ/gnathal interneuron classes (FlyWire v783); bitter = canonical aversive taste modality"
+ },
+ "fly_narration": "Bitter on the tongue \u2014 spit it out.",
+ "hop0_ids": [
+  "FBbt_00049613"
+ ],
+ "method": {
+  "hop0_class": "FBbt_00049613",
+  "class_level_rows": 129,
+  "note": "class-level downstream indexed; no instance attack needed"
+ }
+}

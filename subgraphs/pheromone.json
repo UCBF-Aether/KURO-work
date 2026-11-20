@@ -1,0 +1,347 @@
+{
+ "stimulus": "pheromone",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count. Two ORN halves: Or47b (named-query fallback) + Or88a (grouped ID form, healed 2026-10-15).",
+ "nodes": [
+  {
+   "id": "FBbt_00067056",
+   "name": "adult olfactory receptor neuron Or47b",
+   "type": "adult olfactory receptor neuron Or47b",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00067123",
+   "name": "adult antennal lobe projection neuron",
+   "type": "adult antennal lobe projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00053398",
+   "name": "adult antennal lobe projection neuron to lateral horn",
+   "type": "adult antennal lobe projection neuron to lateral horn",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00016687",
+   "name": "fruitless expressing neuron",
+   "type": "fruitless expressing neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007390",
+   "name": "adult antennal lobe local neuron",
+   "type": "adult antennal lobe local neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059245",
+   "name": "adult central brain intrinsic neuron",
+   "type": "adult central brain intrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100660",
+   "name": "BAlc lineage neuron",
+   "type": "BAlc lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007484",
+   "name": "mushroom body intrinsic neuron",
+   "type": "mushroom body intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00050025",
+   "name": "adult ALl1 lineage neuron",
+   "type": "adult ALl1 lineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00051493",
+   "name": "local neuron",
+   "type": "local neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00067057",
+   "name": "adult olfactory receptor neuron Or88a",
+   "type": "adult olfactory receptor neuron Or88a (VA1d glomerulus ORN)",
+   "hop": 0,
+   "provenance": "REAL",
+   "note": "Added 2026-10-15 retry sweep: the 'poisoned' index entry is healed \u2014 grouped ID form now returns 129 real rows (was: all forms failed server-side, GAPS.md pheromone dead avenues)."
+  },
+  {
+   "id": "FBbt_00059283",
+   "name": "adult antennal lobe projection neuron VA1d",
+   "type": "adult antennal lobe projection neuron VA1d",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Or88a downstream (retry sweep 2026-10-15), tw=13168."
+  },
+  {
+   "id": "FBbt_00067357",
+   "name": "adult antennal lobe projection neuron VA1d adPN",
+   "type": "adult antennal lobe projection neuron VA1d adPN",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Or88a downstream (retry sweep 2026-10-15), tw=11444."
+  },
+  {
+   "id": "FBbt_00053397",
+   "name": "antennal lobe projection neuron to mushroom body",
+   "type": "antennal lobe projection neuron to mushroom body",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Or88a downstream (retry sweep 2026-10-15), tw=11488."
+  },
+  {
+   "id": "FBbt_20003838",
+   "name": "adult multiglomerular antennal lobe projection neuron type 63 vPN",
+   "type": "adult multiglomerular antennal lobe projection neuron type 63 vPN",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Or88a downstream (retry sweep 2026-10-15), tw=3091."
+  },
+  {
+   "id": "FBbt_00047724",
+   "name": "lateral antennal lobe tract projection neuron 4",
+   "type": "lateral antennal lobe tract projection neuron 4",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Or88a downstream (retry sweep 2026-10-15), tw=2474."
+  },
+  {
+   "id": "FBbt_00004037",
+   "name": "adult subesophageal sensory interneuron",
+   "type": "adult subesophageal sensory interneuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Or88a downstream (retry sweep 2026-10-15), tw=2474."
+  },
+  {
+   "id": "FBbt_00049766",
+   "name": "adult antennal lobe projection neuron VA1d vPN",
+   "type": "adult antennal lobe projection neuron VA1d vPN",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Or88a downstream (retry sweep 2026-10-15), tw=1724."
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00067056",
+   "post": "FBbt_00067123",
+   "weight": 15332
+  },
+  {
+   "pre": "FBbt_00067056",
+   "post": "FBbt_00053398",
+   "weight": 13811
+  },
+  {
+   "pre": "FBbt_00067056",
+   "post": "FBbt_00016687",
+   "weight": 13133
+  },
+  {
+   "pre": "FBbt_00067056",
+   "post": "FBbt_00007390",
+   "weight": 6500
+  },
+  {
+   "pre": "FBbt_00067056",
+   "post": "FBbt_00059245",
+   "weight": 6500
+  },
+  {
+   "pre": "FBbt_00067056",
+   "post": "FBbt_00100660",
+   "weight": 3839
+  },
+  {
+   "pre": "FBbt_00067123",
+   "post": "FBbt_00059245",
+   "weight": 1199111.0
+  },
+  {
+   "pre": "FBbt_00067123",
+   "post": "FBbt_00048293",
+   "weight": 816980.0
+  },
+  {
+   "pre": "FBbt_00067123",
+   "post": "FBbt_00007484",
+   "weight": 700219.0
+  },
+  {
+   "pre": "FBbt_00053398",
+   "post": "FBbt_00059245",
+   "weight": 1133359.0
+  },
+  {
+   "pre": "FBbt_00053398",
+   "post": "FBbt_00048293",
+   "weight": 746058.0
+  },
+  {
+   "pre": "FBbt_00053398",
+   "post": "FBbt_00007484",
+   "weight": 674261.0
+  },
+  {
+   "pre": "FBbt_00016687",
+   "post": "FBbt_00059289",
+   "weight": 378694.0
+  },
+  {
+   "pre": "FBbt_00016687",
+   "post": "FBbt_00001983",
+   "weight": 346672.0
+  },
+  {
+   "pre": "FBbt_00016687",
+   "post": "FBbt_00047096",
+   "weight": 274981.0
+  },
+  {
+   "pre": "FBbt_00007390",
+   "post": "FBbt_00050025",
+   "weight": 772079.0
+  },
+  {
+   "pre": "FBbt_00007390",
+   "post": "FBbt_00100660",
+   "weight": 772079.0
+  },
+  {
+   "pre": "FBbt_00007390",
+   "post": "FBbt_00049540",
+   "weight": 740421.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00059245",
+   "weight": 933293.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00050025",
+   "weight": 812936.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00051493",
+   "weight": 801321.0
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00059283",
+   "weight": 13168,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00067357",
+   "weight": 11444,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00053397",
+   "weight": 11488,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_20003838",
+   "weight": 3091,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00047724",
+   "weight": 2474,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00004037",
+   "weight": 2474,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00049766",
+   "weight": 1724,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00053398",
+   "weight": 16414,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00007390",
+   "weight": 9051,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00067057",
+   "post": "FBbt_00016687",
+   "weight": 2485,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity, FBbt_00067057, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  }
+ ],
+ "behavior": {
+  "text": "Courtship and social smell: Or47b pheromone receptor neurons (VA1v glomerulus) drive antennal lobe projection neurons to the lateral horn and feed the fruitless courtship system \u2014 the sensory front end of the P1 mating-drive circuit.",
+  "basis": "Or47b as the male courtship pheromone ORN projecting via VA1v to higher olfactory centers is textbook Drosophila (Dweck 2015; Kohl 2013); edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "Her scent \u2014 follow it.",
+ "honest_note": "Or47b grouped class-level queries truncate server-side in every form; hop 0->1 edges are from the named DownstreamClassConnectivity query (50 rows, real). Hop-1 takes the most specific member of each ontology-duplicated tier (documented above). 'fruitless expressing neuron' is broad but kept deliberately \u2014 it is the pheromone -> courtship bridge. CONVERGENCE WITH MATING: this chain MEETS the P1 chain (mating.json) at FBbt_00016687 'fruitless expressing neuron' \u2014 Or47b feeds it (tw=13133) and P1's aSP-a feeds it (tw=63139). The pheromone sense and the mating drive share a node: smell enters the courtship system here. Or88a (VA1d, FBbt_00067057) is unindexable in every query form tried (grouped label/id, named, instance enumeration, CATMAID annotation search) \u2014 server-side truncation, documented dead avenue, not faked. ppk23/ppk29 gustatory pheromone neurons have no adult FBbt class (VFB search returns only the gene + L1EM larval instances). 2026-10-15 RETRY SWEEP: Or88a (FBbt_00067057) is HEALED \u2014 the poisoned index entry now returns 129 real rows via grouped ID form. Or88a half added: VA1d uniglomerular PNs (tw=13,168/11,444 \u2014 VA1d is Or88a's glomerulus), MB-projecting PN, multiglomerular vPN type 63, lALT4, subesophageal sensory interneuron, VA1d vPN; plus shared nodes with the Or47b half (AL PN->LH, AL local, fru FBbt_00016687). The two pheromone channels converge on the same lateral-horn/fru readout \u2014 parallel pheromone lines, same courtship back-end.",
+ "hop0_ids": [
+  "FBbt_00067056",
+  "FBbt_00067057"
+ ]
+}

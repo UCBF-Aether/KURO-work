@@ -1,0 +1,40 @@
+{
+ "stimulus": "touch_pressure",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; REAL rows from motor-backward UpstreamClassConnectivity of b1 (see touch_qualities_lit.json, GAPS.md 2026-10-14)",
+ "nodes": [
+  {
+   "id": "FBbt_00048057",
+   "name": "sensory neuron of campaniform sensillum",
+   "type": "campaniform sensillum neuron",
+   "hop": 0,
+   "provenance": "REAL"
+  },
+  {
+   "id": "FBbt_00004066",
+   "name": "b1 motor neuron (wing basalar muscle b1)",
+   "type": "motor neuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "Tonic wing steering motor neuron; monosynaptic target of tegula campaniform sensilla (Lesser et al. 2026, eLife; FANC EM confirmation)."
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00048057",
+   "post": "FBbt_00004066",
+   "weight": 3572,
+   "provenance": "REAL",
+   "citation": "VFBquery /run_query UpstreamClassConnectivity of FBbt_00004066 (b1), FlyWire FAFB v783",
+   "note": "Class-level downstream of campaniform returns 0 rows in every form; the upstream query of b1 resolves the same synapse set (motor-backward attack, GAPS.md)."
+  }
+ ],
+ "behavior": {
+  "text": "Firm pressure: cuticular strain drives campaniform sensilla; the fly registers load and pressure.",
+  "basis": "REAL measured wiring (FlyWire v783, motor-backward attack): campaniform sensilla synapse directly onto the b1 wing steering motor neuron (tw=3572). Full provenance in subgraphs/touch_qualities_lit.json."
+ },
+ "fly_narration": "Weight pressing \u2014 bear it.",
+ "hop0_ids": [
+  "FBbt_00048057"
+ ],
+ "honest_note": "Re-pointed 2026-10-14: was an honest 1-node stub (no indexed downstream in any API form); the touch-qualities own-method solve resolved campaniform->b1 via motor-backward UpstreamClassConnectivity + FANC EM literature confirmation. Wing/leg campaniform classes carry analogous weights (1818/1754); this graph keeps the general class edge."
+}

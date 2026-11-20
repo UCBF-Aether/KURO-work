@@ -1,0 +1,136 @@
+{
+ "stimulus": "touch_vibration",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00100000",
+   "name": "Johnston organ neuron",
+   "type": "Johnston organ neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00004037",
+   "name": "adult subesophageal sensory interneuron",
+   "type": "adult subesophageal sensory interneuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00001972",
+   "name": "subesophageal zone neuron",
+   "type": "subesophageal zone neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00052032",
+   "name": "gnathal ganglion neuron",
+   "type": "gnathal ganglion neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059247",
+   "name": "adult visual neuropil intrinsic neuron",
+   "type": "adult visual neuropil intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00100000",
+   "post": "FBbt_00004037",
+   "weight": 123988
+  },
+  {
+   "pre": "FBbt_00100000",
+   "post": "FBbt_00001972",
+   "weight": 98291
+  },
+  {
+   "pre": "FBbt_00100000",
+   "post": "FBbt_00052032",
+   "weight": 98291
+  },
+  {
+   "pre": "FBbt_00004037",
+   "post": "FBbt_00059247",
+   "weight": 278645.0
+  },
+  {
+   "pre": "FBbt_00004037",
+   "post": "FBbt_00049540",
+   "weight": 145813.0
+  },
+  {
+   "pre": "FBbt_00004037",
+   "post": "FBbt_00047511",
+   "weight": 111895.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00059289",
+   "weight": 960507.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00001983",
+   "weight": 846534.0
+  },
+  {
+   "pre": "FBbt_00001972",
+   "post": "FBbt_00047096",
+   "weight": 668777.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00059289",
+   "weight": 959022.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00001983",
+   "weight": 845190.0
+  },
+  {
+   "pre": "FBbt_00052032",
+   "post": "FBbt_00047096",
+   "weight": 632276.0
+  }
+ ],
+ "behavior": {
+  "text": "Vibration: antennal oscillation drives Johnston's organ; the fly registers buzzing movement and braces.",
+  "basis": "textbook Johnston's organ -> AMMC/AVLP -> descending pathway"
+ },
+ "fly_narration": "The world jolts \u2014 brace.",
+ "hop0_ids": [
+  "FBbt_00100000"
+ ]
+}

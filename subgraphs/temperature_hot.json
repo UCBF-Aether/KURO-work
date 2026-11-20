@@ -1,0 +1,177 @@
+{
+ "stimulus": "temperature (hot)",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome. Hop 0->1: named DownstreamClassConnectivity rows for FBbt_00007575 (aristal sensory neuron VP2, the hot cell / warm thermoreceptor cells in the arista); hop 1->2: class-aggregated /query_connectivity. Edge weight = total synapse count.",
+ "nodes": [
+  {
+   "id": "FBbt_00007575",
+   "name": "aristal sensory neuron VP2",
+   "type": "aristal sensory neuron VP2",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00007422",
+   "name": "antennal lobe projection neuron",
+   "type": "antennal lobe projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059245",
+   "name": "adult central brain intrinsic neuron",
+   "type": "adult central brain intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00048293",
+   "name": "adult lateral horn neuron",
+   "type": "adult lateral horn neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007484",
+   "name": "mushroom body intrinsic neuron",
+   "type": "mushroom body intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00067123",
+   "name": "adult antennal lobe projection neuron",
+   "type": "adult antennal lobe projection neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050025",
+   "name": "adult ALl1 lineage neuron",
+   "type": "adult ALl1 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100660",
+   "name": "BAlc lineage neuron",
+   "type": "BAlc lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00051493",
+   "name": "local neuron",
+   "type": "local neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049427",
+   "name": "adult lateral horn input neuron",
+   "type": "adult lateral horn input neuron",
+   "hop": 1
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00007575",
+   "post": "FBbt_00007422",
+   "weight": 9925.0
+  },
+  {
+   "pre": "FBbt_00007422",
+   "post": "FBbt_00059245",
+   "weight": 1199111.0
+  },
+  {
+   "pre": "FBbt_00007422",
+   "post": "FBbt_00048293",
+   "weight": 816980.0
+  },
+  {
+   "pre": "FBbt_00007422",
+   "post": "FBbt_00007484",
+   "weight": 704024.0
+  },
+  {
+   "pre": "FBbt_00007575",
+   "post": "FBbt_00067123",
+   "weight": 9925.0
+  },
+  {
+   "pre": "FBbt_00067123",
+   "post": "FBbt_00059245",
+   "weight": 1199111.0
+  },
+  {
+   "pre": "FBbt_00067123",
+   "post": "FBbt_00048293",
+   "weight": 816980.0
+  },
+  {
+   "pre": "FBbt_00067123",
+   "post": "FBbt_00007484",
+   "weight": 700219.0
+  },
+  {
+   "pre": "FBbt_00007575",
+   "post": "FBbt_00050025",
+   "weight": 8725.0
+  },
+  {
+   "pre": "FBbt_00050025",
+   "post": "FBbt_00059245",
+   "weight": 933293.0
+  },
+  {
+   "pre": "FBbt_00050025",
+   "post": "FBbt_00100660",
+   "weight": 812936.0
+  },
+  {
+   "pre": "FBbt_00050025",
+   "post": "FBbt_00051493",
+   "weight": 799457.0
+  },
+  {
+   "pre": "FBbt_00007575",
+   "post": "FBbt_00100660",
+   "weight": 8725.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00059245",
+   "weight": 933293.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00050025",
+   "weight": 812936.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00051493",
+   "weight": 801321.0
+  },
+  {
+   "pre": "FBbt_00007575",
+   "post": "FBbt_00049427",
+   "weight": 8466.0
+  },
+  {
+   "pre": "FBbt_00049427",
+   "post": "FBbt_00059245",
+   "weight": 1152102.0
+  },
+  {
+   "pre": "FBbt_00049427",
+   "post": "FBbt_00048293",
+   "weight": 896558.0
+  },
+  {
+   "pre": "FBbt_00049427",
+   "post": "FBbt_00007484",
+   "weight": 694694.0
+  }
+ ],
+ "behavior": {
+  "text": "Heat sensing: aristal hot cells (VP2) drive downstream circuits for warmth detection and heat avoidance; the fly moves away from noxious heat toward preferred temperature.",
+  "basis": "textbook Drosophila thermosensation (aristal hot cells -> posterior antennal lobe); stated as known biology, resolved circuit below shows how far the API could trace it"
+ },
+ "fly_narration": "Heat on the arista \u2014 shift.",
+ "hop0_ids": [
+  "FBbt_00007575"
+ ],
+ "honest_note": "Hot and cold are separate chains with separate wiring: this file is the HOT chain (VP2 hot cells). The COLD chain (Ir21a VP1l) lives in subgraphs/temperature.json."
+}

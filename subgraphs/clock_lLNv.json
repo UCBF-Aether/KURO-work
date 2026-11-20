@@ -1,0 +1,187 @@
+{
+ "stimulus": "clock_lLNv",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783; class-aggregated /query_connectivity LABEL form (retry sweep 2026-10-15). The general LNv walk lives in clock.json; this is the l-LNv SUBCLASS output profile.",
+ "nodes": [
+  {
+   "id": "FBbt_00003763",
+   "name": "l-LNv neuron",
+   "type": "large lateral neuron ventral (PDF pacemaker subclass)",
+   "hop": 0,
+   "provenance": "REAL"
+  },
+  {
+   "id": "FBbt_00053404",
+   "name": "accessory medulla neuron",
+   "type": "accessory medulla neuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=256."
+  },
+  {
+   "id": "FBbt_00003791",
+   "name": "transmedullary neuron Tm3",
+   "type": "transmedullary neuron Tm3",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=195."
+  },
+  {
+   "id": "FBbt_00059244",
+   "name": "adult visual centrifugal neuron",
+   "type": "adult visual centrifugal neuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=133."
+  },
+  {
+   "id": "FBbt_20007302",
+   "name": "adult accessory medulla neuron aMe30",
+   "type": "adult accessory medulla neuron aMe30",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=112."
+  },
+  {
+   "id": "FBbt_00053405",
+   "name": "adult octopaminergic AL2b2 neuron",
+   "type": "adult octopaminergic AL2b2 neuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=21."
+  },
+  {
+   "id": "FBbt_00049858",
+   "name": "adult subesophageal zone output neuron",
+   "type": "adult subesophageal zone output neuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=21."
+  },
+  {
+   "id": "FBbt_00003725",
+   "name": "lamina monopolar neuron L5",
+   "type": "lamina monopolar neuron L5",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=20."
+  },
+  {
+   "id": "FBbt_00003763",
+   "name": "l-LNv neuron",
+   "type": "l-LNv neuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=5."
+  },
+  {
+   "id": "FBbt_00004044",
+   "name": "LN period neuron",
+   "type": "LN period neuron",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=5."
+  },
+  {
+   "id": "FBbt_00003719",
+   "name": "lamina monopolar neuron L1",
+   "type": "lamina monopolar neuron L1",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=5."
+  },
+  {
+   "id": "FBbt_00003720",
+   "name": "lamina monopolar neuron L2",
+   "type": "lamina monopolar neuron L2",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=5."
+  },
+  {
+   "id": "FBbt_20004523",
+   "name": "adult medulla visual projection neuron MeVPMe12",
+   "type": "adult medulla visual projection neuron MeVPMe12",
+   "hop": 1,
+   "provenance": "REAL",
+   "note": "l-LNv downstream (label-form query, retry sweep 2026-10-15), tw=94."
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00053404",
+   "weight": 256,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00003791",
+   "weight": 195,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00059244",
+   "weight": 133,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_20007302",
+   "weight": 112,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00053405",
+   "weight": 21,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00049858",
+   "weight": 21,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00003725",
+   "weight": 20,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00003763",
+   "weight": 5,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00004044",
+   "weight": 5,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00003719",
+   "weight": 5,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_00003720",
+   "weight": 5,
+   "provenance": "REAL"
+  },
+  {
+   "pre": "FBbt_00003763",
+   "post": "FBbt_20004523",
+   "weight": 94,
+   "provenance": "REAL"
+  }
+ ],
+ "hop0_ids": [
+  "FBbt_00003763"
+ ],
+ "honest_note": "2026-10-15 RETRY SWEEP: l-LNv (FBbt_00003763) is HEALED via the label form ('l-LNv neuron', 88 rows) \u2014 grouped ID and named forms still die server-side (IncompleteRead). Ontology parents, transmitter buckets, and lineage groupings skipped (documented heuristic); most-specific member kept per tier. l-LNv's output profile DIFFERS from the general LNv walk (clock.json): l-LNv talks back to the visual system (Tm3, MeVPMe12, lamina L1/L2/L5), the accessory medulla (incl. aMe30), octopaminergic AL2b2, and SEZ output \u2014 plus recurrent l-LNv and LN-period links. The clock's large cells close a visual feedback loop the general walk doesn't show. Companion to clock.json; the clock/ bottle is untouched."
+}

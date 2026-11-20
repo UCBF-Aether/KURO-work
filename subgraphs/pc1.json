@@ -1,0 +1,341 @@
+{
+ "stimulus": "pc1",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated connectivity (grouped /query_connectivity, 1,469 rows on retry \u2014 the 0-row result during the mating build was API degradation), edge weight = total synapse count",
+ "behavior": {
+  "text": "Courtship integration output: pC1 (doublesex, male) is the convergence node of the social brain \u2014 courtship song (JO-B->AMMC-B1->vPN1->pC1) and the P1 mating drive (P1->pC1) meet here. pC1 fans out to the fru courtship system, back to P1 itself, and directly to descending motor neurons.",
+  "basis": "pC1 as the courtship-integration center is textbook Drosophila (Zhou et al 2015; Ishikawa et al 2023); edges below are the resolved API walk, stated as measured wiring"
+ },
+ "fly_narration": "She sings, he hears \u2014 and the circuit answers.",
+ "honest_note": "THE LOOP CLOSES. pC1->P1 (tw=5,863) is REAL measured wiring: the song chain (song_lit.json) ends at pC1, and pC1 drives P1 (mating.json) \u2014 courtship hearing feeds the mating drive through measured synapses, not just literature. pC1->pIP10 (tw=1,796) is also real (below top-k, recorded here). pC1->descending (tw=14,529) is pC1's direct motor output. pC1->fruitless-expressing (tw=87,164) feeds BACK into the fru system \u2014 the triple-convergence node is both upstream and downstream of pC1 (recurrent within the fru courtship system). Hop-1 takes top-6 specific + P1 as deliberate 7th; duplicated tiers by most specific member; 'sexually-dimorphic neuron' (47,894) skipped as parent bucket (mating precedent). CIRCUIT VS DYNAMICS: every edge is REAL measured wiring of pC1's output chain. How pC1 integrates song + pheromone + internal state into a courtship decision is the unmapped frontier; no API holds it and this graph models none of it. 2026-10-15 RETRY SWEEP: SMPad1 (FBbt_00050245) \u2014 pC1's honest hop-1 terminal \u2014 is HEALED via the label form (1,372 rows; grouped ID still dies server-side). Its downstream makes pc1.json CYCLIC: SMPad1->pC1 (tw=10,802) is a TRUE RECURRENT edge (hop-1 -> hop-0), and SMPad1 feeds the fru triple-convergence node (63,139), aSP-a, descending motor, and three new nodes (fru aDT-b, posterior-brain descending, fru pMP-e). The pC1 loop is now a recurrent social circuit, not a chain.",
+ "nodes": [
+  {
+   "id": "FBbt_00047348",
+   "name": "adult doublesex pC1 (male) neuron",
+   "type": "adult doublesex pC1 (male) neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00016687",
+   "name": "fruitless expressing neuron",
+   "type": "fruitless expressing neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00053229",
+   "name": "adult brain doublesex neuron",
+   "type": "adult brain doublesex neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050245",
+   "name": "adult SMPad1 (male) lineage neuron",
+   "type": "adult SMPad1 (male) lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00110595",
+   "name": "adult fruitless aSP-a (male) neuron",
+   "type": "adult fruitless aSP-a (male) neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00050254",
+   "name": "adult DM4 lineage neuron",
+   "type": "adult DM4 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047511",
+   "name": "adult descending neuron",
+   "type": "adult descending neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00110621",
+   "name": "adult fruitless P1 (male) neuron",
+   "type": "adult fruitless P1 (male) neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001987",
+   "name": "abdominal neuron",
+   "type": "abdominal neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00051203",
+   "name": "sexually-dimorphic neuron",
+   "type": "sexually-dimorphic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00049819",
+   "name": "adult central complex neuron",
+   "type": "adult central complex neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00007514",
+   "name": "small field neuron of the central complex",
+   "type": "small field neuron of the central complex",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00003633",
+   "name": "small field neuron",
+   "type": "small field neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047347",
+   "name": "adult doublesex neuron",
+   "type": "adult doublesex neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00110579",
+   "name": "adult fruitless aDT-b (male) neuron",
+   "type": "adult fruitless aDT-b (male) neuron",
+   "hop": 2,
+   "provenance": "REAL",
+   "note": "SMPad1 downstream (label-form query, retry sweep 2026-10-15), tw=15466."
+  },
+  {
+   "id": "FBbt_00047517",
+   "name": "descending neuron of the posterior brain",
+   "type": "descending neuron of the posterior brain",
+   "hop": 2,
+   "provenance": "REAL",
+   "note": "SMPad1 downstream (label-form query, retry sweep 2026-10-15), tw=7815."
+  },
+  {
+   "id": "FBbt_00052710",
+   "name": "adult fruitless pMP-e neuron",
+   "type": "adult fruitless pMP-e neuron",
+   "hop": 2,
+   "provenance": "REAL",
+   "note": "SMPad1 downstream (label-form query, retry sweep 2026-10-15), tw=4759."
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00047348",
+   "post": "FBbt_00016687",
+   "weight": 87164
+  },
+  {
+   "pre": "FBbt_00047348",
+   "post": "FBbt_00053229",
+   "weight": 34237
+  },
+  {
+   "pre": "FBbt_00047348",
+   "post": "FBbt_00050245",
+   "weight": 26553
+  },
+  {
+   "pre": "FBbt_00047348",
+   "post": "FBbt_00110595",
+   "weight": 26553
+  },
+  {
+   "pre": "FBbt_00047348",
+   "post": "FBbt_00050254",
+   "weight": 22374
+  },
+  {
+   "pre": "FBbt_00047348",
+   "post": "FBbt_00047511",
+   "weight": 14529
+  },
+  {
+   "pre": "FBbt_00047348",
+   "post": "FBbt_00110621",
+   "weight": 5863
+  },
+  {
+   "pre": "FBbt_00016687",
+   "post": "FBbt_00059289",
+   "weight": 378694.0
+  },
+  {
+   "pre": "FBbt_00016687",
+   "post": "FBbt_00001983",
+   "weight": 346672.0
+  },
+  {
+   "pre": "FBbt_00016687",
+   "post": "FBbt_00047096",
+   "weight": 274981.0
+  },
+  {
+   "pre": "FBbt_00053229",
+   "post": "FBbt_00059289",
+   "weight": 14258.0
+  },
+  {
+   "pre": "FBbt_00053229",
+   "post": "FBbt_00001987",
+   "weight": 7401.0
+  },
+  {
+   "pre": "FBbt_00053229",
+   "post": "FBbt_00001983",
+   "weight": 6834.0
+  },
+  {
+   "pre": "FBbt_00110595",
+   "post": "FBbt_00016687",
+   "weight": 63139
+  },
+  {
+   "pre": "FBbt_00110595",
+   "post": "FBbt_00051203",
+   "weight": 27927
+  },
+  {
+   "pre": "FBbt_00110595",
+   "post": "FBbt_00049540",
+   "weight": 16373
+  },
+  {
+   "pre": "FBbt_00050254",
+   "post": "FBbt_00049819",
+   "weight": 240126.0
+  },
+  {
+   "pre": "FBbt_00050254",
+   "post": "FBbt_00007514",
+   "weight": 145123.0
+  },
+  {
+   "pre": "FBbt_00050254",
+   "post": "FBbt_00003633",
+   "weight": 145123.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00059289",
+   "weight": 3312838.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00001983",
+   "weight": 2932312.0
+  },
+  {
+   "pre": "FBbt_00047511",
+   "post": "FBbt_00047096",
+   "weight": 2203377.0
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00016687",
+   "weight": 51702
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00051203",
+   "weight": 25724
+  },
+  {
+   "pre": "FBbt_00110621",
+   "post": "FBbt_00047347",
+   "weight": 17786
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00016687",
+   "weight": 63139,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00051203",
+   "weight": 27927,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00047347",
+   "weight": 15772,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00110579",
+   "weight": 15466,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00110595",
+   "weight": 12274,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00047511",
+   "weight": 11581,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00047348",
+   "weight": 10802,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00047517",
+   "weight": 7815,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00049819",
+   "weight": 4924,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  },
+  {
+   "pre": "FBbt_00050245",
+   "post": "FBbt_00052710",
+   "weight": 4759,
+   "provenance": "REAL",
+   "note": "VFBquery grouped /query_connectivity label form, FlyWire FAFB v783 (retry sweep 2026-10-15)."
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "stimulus": "visual motion (T4/T5 direction-selective pathway)",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome. Class-aggregated /query_connectivity via build_graphs.pick_downstream (grouped -> label -> named fallbacks). Edge weight = total synapse count.",
+ "nodes": [
+  {
+   "id": "FBbt_00003731",
+   "name": "T4 neuron",
+   "type": "T4 neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00003736",
+   "name": "T5 neuron",
+   "type": "T5 neuron",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00059247",
+   "name": "adult visual neuropil intrinsic neuron",
+   "type": "adult visual neuropil intrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00003910",
+   "name": "lobula plate intrinsic neuron",
+   "type": "lobula plate intrinsic neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00003907",
+   "name": "lobula plate tangential neuron",
+   "type": "lobula plate tangential neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00003906",
+   "name": "lobula plate giant neuron",
+   "type": "lobula plate giant neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00110137",
+   "name": "optic lobe wide-field columnar neuron",
+   "type": "optic lobe wide-field columnar neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00003890",
+   "name": "translobula plate neuron",
+   "type": "translobula plate neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00003726",
+   "name": "T neuron",
+   "type": "T neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00110136",
+   "name": "optic lobe narrow field columnar neuron",
+   "type": "optic lobe narrow field columnar neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00003736",
+   "post": "FBbt_00059247",
+   "weight": 1775618
+  },
+  {
+   "pre": "FBbt_00003731",
+   "post": "FBbt_00059247",
+   "weight": 1281507.0
+  },
+  {
+   "pre": "FBbt_00003736",
+   "post": "FBbt_00003910",
+   "weight": 835144
+  },
+  {
+   "pre": "FBbt_00003736",
+   "post": "FBbt_00003907",
+   "weight": 529105
+  },
+  {
+   "pre": "FBbt_00003731",
+   "post": "FBbt_00003910",
+   "weight": 471436.0
+  },
+  {
+   "pre": "FBbt_00003736",
+   "post": "FBbt_00003906",
+   "weight": 366422
+  },
+  {
+   "pre": "FBbt_00003736",
+   "post": "FBbt_00110137",
+   "weight": 285363
+  },
+  {
+   "pre": "FBbt_00003731",
+   "post": "FBbt_00003907",
+   "weight": 282410.0
+  },
+  {
+   "pre": "FBbt_00003731",
+   "post": "FBbt_00047096",
+   "weight": 261305.0
+  },
+  {
+   "pre": "FBbt_00003736",
+   "post": "FBbt_00003890",
+   "weight": 254081
+  },
+  {
+   "pre": "FBbt_00003731",
+   "post": "FBbt_00110137",
+   "weight": 245773.0
+  },
+  {
+   "pre": "FBbt_00003731",
+   "post": "FBbt_00003906",
+   "weight": 181003.0
+  },
+  {
+   "pre": "FBbt_00003910",
+   "post": "FBbt_00059247",
+   "weight": 616998.0
+  },
+  {
+   "pre": "FBbt_00003910",
+   "post": "FBbt_00047096",
+   "weight": 206362.0
+  },
+  {
+   "pre": "FBbt_00003910",
+   "post": "FBbt_00110137",
+   "weight": 164526.0
+  },
+  {
+   "pre": "FBbt_00003907",
+   "post": "FBbt_00059247",
+   "weight": 230834.0
+  },
+  {
+   "pre": "FBbt_00003907",
+   "post": "FBbt_00110137",
+   "weight": 65416.0
+  },
+  {
+   "pre": "FBbt_00003907",
+   "post": "FBbt_00047096",
+   "weight": 60227.0
+  },
+  {
+   "pre": "FBbt_00003906",
+   "post": "FBbt_00059247",
+   "weight": 75877.0
+  },
+  {
+   "pre": "FBbt_00003906",
+   "post": "FBbt_00047096",
+   "weight": 43016.0
+  },
+  {
+   "pre": "FBbt_00003906",
+   "post": "FBbt_00003726",
+   "weight": 24883.0
+  },
+  {
+   "pre": "FBbt_00110137",
+   "post": "FBbt_00059247",
+   "weight": 7002402.0
+  },
+  {
+   "pre": "FBbt_00110137",
+   "post": "FBbt_00047096",
+   "weight": 2933304.0
+  },
+  {
+   "pre": "FBbt_00110137",
+   "post": "FBbt_00110136",
+   "weight": 2346697.0
+  },
+  {
+   "pre": "FBbt_00003890",
+   "post": "FBbt_00059247",
+   "weight": 305364.0
+  },
+  {
+   "pre": "FBbt_00003890",
+   "post": "FBbt_00047096",
+   "weight": 154930.0
+  },
+  {
+   "pre": "FBbt_00003890",
+   "post": "FBbt_00110137",
+   "weight": 126401.0
+  }
+ ],
+ "behavior": {
+  "text": "Motion vision: T4 (ON-edge) and T5 (OFF-edge) direction-selective neurons in the optic lobe drive lobula plate tangential cells (LPTCs), which feed descending neurons for optomotor stabilization and course control.",
+  "basis": "textbook Drosophila motion vision (T4/T5 -> LPTCs -> descending); stated as known biology, resolved circuit below shows how far the API could trace it"
+ },
+ "fly_narration": "The world slides sideways \u2014 correct.",
+ "hop0_ids": [
+  "FBbt_00003731",
+  "FBbt_00003736"
+ ],
+ "honest_note": "T4 (ON-edge) and T5 (OFF-edge) are the direction-selective motion detectors; this graph unions their downstream walks and keeps every real pre-edge (T4 and T5 both synapse onto the shared classes). The textbook pathway landed on real rows: T4->lobula plate tangential neuron (tw=282410) and T5->lobula plate tangential neuron (tw=529105), plus lobula plate intrinsic/giant neurons. Hop-2 reaches secondary neurons and columnar classes. 'secondary neuron' failed all query forms (honest hop-1 terminal); 'adult visual neuropil intrinsic neuron' returned 0 downstream rows (honest hop-1 terminal). T4's grouped queries died server-side; the named DownstreamClassConnectivity fallback worked."
+}

@@ -1,0 +1,208 @@
+{
+ "stimulus": "rotten",
+ "source": "Virtual Fly Brain VFBquery HTTP API (https://v3-cached.virtualflybrain.org/), FlyWire FAFB v783 connectome; class-aggregated /query_connectivity, edge weight = total synapse count",
+ "nodes": [
+  {
+   "id": "FBbt_00067063",
+   "name": "adult olfactory receptor neuron Or56a",
+   "type": "adult olfactory receptor neuron Or56a",
+   "hop": 0
+  },
+  {
+   "id": "FBbt_00050025",
+   "name": "adult ALl1 lineage neuron",
+   "type": "adult ALl1 lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00100660",
+   "name": "BAlc lineage neuron",
+   "type": "BAlc lineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049540",
+   "name": "Notch OFF hemilineage neuron",
+   "type": "Notch OFF hemilineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00049911",
+   "name": "BAlc Notch OFF hemilineage neuron",
+   "type": "BAlc Notch OFF hemilineage neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007697",
+   "name": "olfactory system neuron",
+   "type": "olfactory system neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00007696",
+   "name": "chemosensory system neuron",
+   "type": "chemosensory system neuron",
+   "hop": 1
+  },
+  {
+   "id": "FBbt_00059245",
+   "name": "adult central brain intrinsic neuron",
+   "type": "adult central brain intrinsic neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00051493",
+   "name": "local neuron",
+   "type": "local neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00059289",
+   "name": "adult VNC neuron",
+   "type": "adult VNC neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00047096",
+   "name": "secondary neuron",
+   "type": "secondary neuron",
+   "hop": 2
+  },
+  {
+   "id": "FBbt_00001983",
+   "name": "thoracic neuron",
+   "type": "thoracic neuron",
+   "hop": 2
+  }
+ ],
+ "edges": [
+  {
+   "pre": "FBbt_00067063",
+   "post": "FBbt_00050025",
+   "weight": 11152
+  },
+  {
+   "pre": "FBbt_00067063",
+   "post": "FBbt_00100660",
+   "weight": 11152
+  },
+  {
+   "pre": "FBbt_00067063",
+   "post": "FBbt_00049540",
+   "weight": 10915
+  },
+  {
+   "pre": "FBbt_00067063",
+   "post": "FBbt_00049911",
+   "weight": 10915
+  },
+  {
+   "pre": "FBbt_00067063",
+   "post": "FBbt_00007697",
+   "weight": 6370
+  },
+  {
+   "pre": "FBbt_00067063",
+   "post": "FBbt_00007696",
+   "weight": 6370
+  },
+  {
+   "pre": "FBbt_00050025",
+   "post": "FBbt_00059245",
+   "weight": 933293.0
+  },
+  {
+   "pre": "FBbt_00050025",
+   "post": "FBbt_00100660",
+   "weight": 812936.0
+  },
+  {
+   "pre": "FBbt_00050025",
+   "post": "FBbt_00051493",
+   "weight": 799457.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00059245",
+   "weight": 933293.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00050025",
+   "weight": 812936.0
+  },
+  {
+   "pre": "FBbt_00100660",
+   "post": "FBbt_00051493",
+   "weight": 801321.0
+  },
+  {
+   "pre": "FBbt_00049540",
+   "post": "FBbt_00059289",
+   "weight": 10717973.0
+  },
+  {
+   "pre": "FBbt_00049540",
+   "post": "FBbt_00047096",
+   "weight": 10230838.0
+  },
+  {
+   "pre": "FBbt_00049540",
+   "post": "FBbt_00001983",
+   "weight": 9593852.0
+  },
+  {
+   "pre": "FBbt_00049911",
+   "post": "FBbt_00059245",
+   "weight": 887333.0
+  },
+  {
+   "pre": "FBbt_00049911",
+   "post": "FBbt_00050025",
+   "weight": 765894.0
+  },
+  {
+   "pre": "FBbt_00049911",
+   "post": "FBbt_00100660",
+   "weight": 765894.0
+  },
+  {
+   "pre": "FBbt_00007697",
+   "post": "FBbt_00059245",
+   "weight": 1385160.0
+  },
+  {
+   "pre": "FBbt_00007697",
+   "post": "FBbt_00051493",
+   "weight": 900926.0
+  },
+  {
+   "pre": "FBbt_00007697",
+   "post": "FBbt_00100660",
+   "weight": 759032.0
+  },
+  {
+   "pre": "FBbt_00007696",
+   "post": "FBbt_00059245",
+   "weight": 1474945.0
+  },
+  {
+   "pre": "FBbt_00007696",
+   "post": "FBbt_00049540",
+   "weight": 1128998.0
+  },
+  {
+   "pre": "FBbt_00007696",
+   "post": "FBbt_00051493",
+   "weight": 940918.0
+  }
+ ],
+ "behavior": {
+  "text": "Olfactory aversion: the fly turns and moves away from the geosmin (mold/rot) odor source.",
+  "basis": "textbook Or56a (geosmin) aversive olfactory pathway: ORN -> antennal lobe -> lateral horn / mushroom body"
+ },
+ "fly_narration": "Rot in the air \u2014 turn away.",
+ "hop0_ids": [
+  "FBbt_00067063"
+ ]
+}
