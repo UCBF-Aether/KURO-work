@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Joplin
 Comment=Joplin - your notes
-Exec=/home/deck/Downloads/Joplin-3.7.24.AppImage
+Exec=/home/deck/Downloads/Joplin-3.7.24.AppImage --no-sandbox --ozone-platform=x11
 Icon=joplin
 Terminal=false
 Type=Application
