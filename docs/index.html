@@ -68,6 +68,19 @@
   .invite p { color: #c7cdd6; font-size: 18px; font-weight: 700; }
   .invite .fine { color: #8b939e; font-size: 14px; font-style: italic; font-weight: 400; margin-top: 6px; font-family: Georgia, serif; }
   .invite .code { font-family: 'Courier New', monospace; font-size: clamp(34px, 7vw, 52px); font-weight: 700; letter-spacing: .18em; color: #ffb020; text-shadow: 0 0 24px rgba(255,176,32,.45); white-space: nowrap; }
+  .lights-banner { margin: 28px auto 0; max-width: 880px; border: 1px solid rgba(229,56,59,.6); background: linear-gradient(160deg, #17191d, #0e1013); box-shadow: 0 0 34px rgba(193,18,31,.28); text-align: left; }
+  .lights-banner .lights-top { background: #c1121f; color: #fff; padding: 10px 20px; font-weight: 800; letter-spacing: .14em; font-size: 13px; text-transform: uppercase; }
+  .lights-banner .lights-body { padding: 20px 24px 22px; }
+  .lights-banner h2 { font-size: clamp(22px, 3vw, 28px); color: #f1f3f5; text-transform: uppercase; letter-spacing: .04em; line-height: 1.2; }
+  .lights-banner h2 span { color: #ff6b1a; }
+  .lights-banner p { color: #b9c0c9; font-size: 15px; margin-top: 10px; font-family: Georgia, serif; }
+  .lights-banner p.lights-need { color: #f1f3f5; font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 700; }
+  .lights-banner p.lights-need b { color: #ff6b1a; }
+  .lights-banner .lights-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
+  .lights-banner .lights-links a { display: inline-block; padding: 12px 22px; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 14px; text-transform: uppercase; letter-spacing: .04em; }
+  .lights-banner .lights-links a.cash { background: linear-gradient(90deg,#ff6b1a,#ff8c2e); color: #14161a; }
+  .lights-banner .lights-links a.venmo { background: transparent; color: #d7dce3; border: 1px solid #3a4048; }
+  .lights-banner .lights-fine { color: #8b939e; font-size: 13px; font-style: italic; margin-top: 12px; }
   section { margin-top: 64px; }
   .sec-head { text-align: center; margin-bottom: 30px; }
   .sec-head h2 {
@@ -176,6 +189,20 @@
       <div><b>100%</b><span>yours to keep</span></div>
     </div>
   </header>
+
+  <div class="lights-banner">
+    <div class="lights-top">Keep the lights on</div>
+    <div class="lights-body">
+      <h2>Everything here is free. <span>Your tip keeps it that way.</span></h2>
+      <p>I build all of this free &mdash; the doctor, the pet, the scanner, the books, the game. It burns billions of tokens a week to keep building.</p>
+      <p class="lights-need">It takes about <b>$25 a week</b> to keep the lights on. Anything helps.</p>
+      <div class="lights-links">
+        <a class="cash" href="https://cash.app/$murkafool">Cash App &mdash; $murkafool</a>
+        <a class="venmo" href="https://venmo.com/code?user_id=2433806342553600608">Venmo</a>
+      </div>
+      <p class="lights-fine">Donations appreciated, never required. No paywall, ever.</p>
+    </div>
+  </div>
 
   <div class="invite">
     <div class="invite-text">
@@ -331,6 +358,7 @@
       <p class="sub">Newest first. One line per change.</p>
     </div>
     <ul class="updates">
+      <li><b>Nov 25, 2026</b> &mdash; Keep the Lights On banner added &mdash; about $25 a week keeps the lights on. Anything helps.</li>
       <li><b>Nov 24, 2026</b> &mdash; Hardened-Core Multiversal &mdash; the Ghost&rsquo;s Cart v1.0 is live (free). Solo v3.0 discontinued, still playable.</li>
       <li><b>Nov 23, 2026</b> &mdash; Token Burner Tracker Blueprint published (free).</li>
       <li><b>Nov 22, 2026</b> &mdash; Mac build pulled &mdash; never tested on a real Mac, so it's off the site until it can be verified.</li>
